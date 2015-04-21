@@ -13,3 +13,31 @@
 .ng-valid.ng-dirty {
 	border-color: #78FA89;
 }
+
+/* Introduction Page */
+.btn-primary {
+  width: 240px;
+}
+
+/* Information Page */
+div.introduction-information-pane {
+  margin-top: 40px;
+}
+
+ul.information-content-list {
+  list-style-type: none;
+}
+
+input.information-content {
+  width: 100%;
+  height: 120px;
+}
+
+div.information-content-footer {
+  margin-top: 40px;
+}
+
+/* Practice Examination Page */
+div.practice-examination-pane {
+  margin-top: 20px;
+}
