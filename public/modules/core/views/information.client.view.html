@@ -1,0 +1,14 @@
+<section data-ng-controller="InformationController">
+	<div class="col-md-12 introduction-information-pane">
+    <div class="col-md-12">
+      <tabset>
+        <tab ng-repeat="tab in tabs" heading="{{tab.title}}" active="tab.active">
+          {{tab.content}}
+        </tab>
+      </tabset>
+    </div>
+    <div class="col-md-12 text-center information-content-footer">
+      <a href="/#!/introduction" class="btn-primary btn-lg">Back to Introduction</a>
+    </div>
+  </div>
+</section>
