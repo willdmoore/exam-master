@@ -1,17 +1,16 @@
 <section data-ng-controller="PracticeExaminationController">
   <div class="col-md-12 practice-examination-pane">
-    <div class="col-md-6">
+    <div class="practice-examination-question col-md-12 text-center">
       {{questions[index].content}}
     </div>
-    <div class="col-md-6">
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
+    <div class="practice-examination-answers col-md-12">
+      <div class="text-center" ng-repeat="answer in (answers | answersForQuestion:questions[index].id)">
+        <label><input type="radio" />{{answer.content}}</label>
+      </div>
     </div>
-    <div class="col-md-12 text-center">
+    <div class="practice-examination-navigation col-md-12 text-center">
+      <button ng-click="prevQuestion()">Previous</button>      
       <button ng-click="nextQuestion()">Next</button>
-      <button ng-click="prevQuestion()">Previous</button>
     </div>
     <div class="col-md-12 text-center">
       <a href="/#!/introduction" class="btn-primary btn-lg">Back to Introduction</a>

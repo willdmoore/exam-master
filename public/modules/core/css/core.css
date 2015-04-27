@@ -41,3 +41,16 @@ div.information-content-footer {
 div.practice-examination-pane {
   margin-top: 20px;
 }
+
+div.practice-examination-question {
+  font-size: 1.75em;
+  margin-bottom: 40px;
+}
+
+div.practice-examination-answers {
+  font-size: 1.15em;
+  margin-bottom: 40px;
+}
+div.practice-examination-navigation {
+  margin-bottom: 40px;
+}
