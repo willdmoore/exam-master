@@ -59,6 +59,18 @@ angular.module('core').config(['$stateProvider', '$urlRouterProvider',
 
 		// Home state routing
 		$stateProvider.
+		state('practice-examination', {
+			url: '/practice-examination',
+			templateUrl: 'modules/core/views/practice-examination.client.view.html'
+		}).
+		state('information', {
+			url: '/information',
+			templateUrl: 'modules/core/views/information.client.view.html'
+		}).
+		state('introduction', {
+			url: '/introduction',
+			templateUrl: 'modules/core/views/introduction.client.view.html'
+		}).
 		state('home', {
 			url: '/',
 			templateUrl: 'modules/core/views/home.client.view.html'
@@ -90,6 +102,240 @@ angular.module('core').controller('HomeController', ['$scope', 'Authentication',
 	function($scope, Authentication) {
 		// This provides Authentication context.
 		$scope.authentication = Authentication;
+	}
+]);
+'use strict';
+
+angular.module('core').controller('InformationController', ['$scope',
+	function($scope) {
+		// Information controller logic
+		// ...
+    $scope.tabs = [
+      {
+        'title': 'Study Materials',
+        'active': true,
+        'content': 'STUDY MATERIALS:  Students preparing for the Pennsylvania Insurance Examination should have a current edition of the companion study manual Essentials of Property and Casual Insurance and a current edition of the Pennsylvania Licensing and Examination Insurance booklet.  The study manual Essentials of Property and Casual Insurance provides a complete analysis of the terms.'
+      },
+      {
+        'title': 'Exam Preparation',
+        'active': false,
+        'content': 'EXAM PREPARATION:  It is recommended that candidates structure their study time over several weeks allocating a specific time each day.  A 30-day programmed instructional guide is included in the study manual.'
+      },
+      {
+        'title': 'Licensing Manual',
+        'active': false,
+        'content': 'LICENSING MANUAL:  The study manual follows the exam outline.  It is recommended that you begin with chapter one, highlighting important terms and topics.  If you do not fully understand a discussion area, refer to the specimen policy forms located in the specimen page section of the manual.'
+      },
+      {
+        'title': 'Exam Master Software',
+        'active': false,
+        'content': 'EXAM MASTER SOFTWARE:  After reviewing a chapter in the manual, EXAM MASTER Interactive is the perfect complement to get you up to speed on key information.  The Chapter Preview feature includes over 450 PowerPoint audio slides.  Use this feature to give you a preview of the chapter.'
+      },
+      {
+        'title': 'I Am Ready',
+        'active': false,
+        'content': 'AM I READY:  This depends to a great extent on how well you\'ve studied and how well you have monitored yourself.  You should not attempt to take your state exam until you have reviewed the study manual and completed it\'s exercises, reviewed the Flash Card exercises in this software and are consistently scoring 85% or greater in the test mode of EXAM MASTER INTERACTIVE.  Only then should you attempt to take your state exam.'
+      }
+    ];
+	}
+]);
+'use strict';
+
+angular.module('core').controller('IntroductionController', ['$scope',
+	function($scope) {
+		// Introduction ctrl controller logic
+		// ...
+
+	}
+]);
+'use strict';
+
+angular.module('core').controller('PracticeExaminationController', ['$scope',
+	function($scope) {
+		// Practice examination controller logic
+		// ...
+
+    $scope.index = 0;
+    $scope.correct = 0;
+
+    $scope.checkAnswer = function(question_id, answer_id) {
+      var question = $scope.questions.filter(function(obj) {
+        return obj.id === question_id;
+      });
+
+      if (question.correct_answer === answer_id)
+      {
+        $scope.correct++;
+        $scope.nextQuestion();
+      }
+      else
+      {
+        $scope.nextQuestion();
+      }
+    };
+
+    $scope.previousQuestion = function() {
+      if ($scope.index-- < 0) $scope.index = $scope.questions.length - 1;
+    };
+
+    $scope.nextQuestion = function() {
+      if ($scope.index++ >= ($scope.questions.length - 1)) $scope.index = 0;
+    };
+
+    $scope.questions = [
+      {
+        'id': 1,
+        'content': 'An applicants licensing exam results are good for...',
+        'correct_answer': 1
+      },
+      {
+        'id': 2,        
+        'content': 'The maximum fine per violation for soliciting insurance without a license is...',
+        'correct_answer': 7
+      },
+      {
+        'id': 3,        
+        'content': 'A temporary license my be issued to approved individuals for a period of...',
+        'correct_answer': 10
+      },
+      {
+        'id': 4,        
+        'content': 'Producers may co-mingle business monies with personal monies...',
+        'correct_answer': 13
+      },
+      {
+        'id': 5,        
+        'content': 'All the following are true regarding premiums collected from a policyholder, EXCEPT...',
+        'correct_answer': 19
+      },      
+    ];
+
+    $scope.answers = [
+      {
+        'id': 1,
+        'question_id': 1,
+        'content': '60 days from the date of the exam.'
+      },
+      {
+        'id': 2,
+        'question_id': 1,        
+        'content': '90 days from the date of the exam.'
+      },
+      {
+        'id': 3,
+        'question_id': 1,        
+        'content': '180 days from the date of the exam.'
+      },
+      {
+        'id': 4,
+        'question_id': 1,        
+        'content': 'One year from the date of the exam.'
+      },
+      {
+        'id': 5,
+        'question_id': 2,
+        'content': '$300'
+      },
+      {
+        'id': 6,
+        'question_id': 2,        
+        'content': '$500'
+      },
+      {
+        'id': 7,
+        'question_id': 2,        
+        'content': '$1000'
+      },
+      {
+        'id': 8,
+        'question_id': 2,        
+        'content': '$5000'
+      },
+      {
+        'id': 9,
+        'question_id': 3,
+        'content': '30 days'
+      },
+      {
+        'id': 10,
+        'question_id': 3,        
+        'content': '60 days'
+      },
+      {
+        'id': 11,
+        'question_id': 3,        
+        'content': '90 days'
+      },
+      {
+        'id': 12,
+        'question_id': 3,        
+        'content': '180 days'
+      },
+      {
+        'id': 13,
+        'question_id': 4,
+        'content': 'Only if permitted in writing by the Insurance Commissioner'
+      },
+      {
+        'id': 14,
+        'question_id': 4,        
+        'content': 'At any time if permitted by the insured'
+      },
+      {
+        'id': 15,
+        'question_id': 4,        
+        'content': 'Only if each represented insurance company provides prior written consent'
+      },
+      {
+        'id': 16,
+        'question_id': 4,        
+        'content': 'Never'
+      },
+      {
+        'id': 17,
+        'question_id': 5,        
+        'content': 'Producers may not co-mingle business monies and personal monies unless each insurance company provides written permissions'
+      },
+      {
+        'id': 18,
+        'question_id': 5,
+        'content': 'Producers may make remittance of premiums collected in the same form as received, need not maintain a separate account'
+      },
+                  {
+        'id': 19,
+        'question_id': 5,        
+        'content': 'Producers who receive cash from insureds may deposit this money into his or her personal account and write a check to the insurance company'
+      },
+      {
+        'id': 20,
+        'question_id': 5,        
+        'content': 'If a producer holds a policyholder\'s funds, they must be maintained in a separate account'
+      },      
+    ];
+	}
+]);
+'use strict';
+
+angular.module('core').filter('answersForQuestion', [
+	function() {
+		return function(input, id) {
+			// Answers for question directive logic
+			// ...
+
+			return input.filter(function(obj) {
+        return obj.question_id === id;
+      });
+		};
+	}
+]);
+'use strict';
+
+angular.module('core').filter('shuffle', [
+	function() {
+		return function(input) {
+      for(var j, x, i = input.length; i; j = parseInt(Math.random() * i), x = input[--i], input[i] = input[j], input[j] = x);
+      return input.slice(0, 3);
+		};
 	}
 ]);
 'use strict';

@@ -6,7 +6,24 @@ angular.module('core').controller('PracticeExaminationController', ['$scope',
 		// ...
 
     $scope.index = 0;
-    
+    $scope.correct = 0;
+
+    $scope.checkAnswer = function(question_id, answer_id) {
+      var question = $scope.questions.filter(function(obj) {
+        return obj.id === question_id;
+      });
+
+      if (question.correct_answer === answer_id)
+      {
+        $scope.correct++;
+        $scope.nextQuestion();
+      }
+      else
+      {
+        $scope.nextQuestion();
+      }
+    };
+
     $scope.previousQuestion = function() {
       if ($scope.index-- < 0) $scope.index = $scope.questions.length - 1;
     };
@@ -24,22 +41,22 @@ angular.module('core').controller('PracticeExaminationController', ['$scope',
       {
         'id': 2,        
         'content': 'The maximum fine per violation for soliciting insurance without a license is...',
-        'correct_answer': 1        
+        'correct_answer': 7
       },
       {
         'id': 3,        
         'content': 'A temporary license my be issued to approved individuals for a period of...',
-        'correct_answer': 1        
+        'correct_answer': 10
       },
       {
         'id': 4,        
         'content': 'Producers may co-mingle business monies with personal monies...',
-        'correct_answer': 1        
+        'correct_answer': 13
       },
       {
         'id': 5,        
         'content': 'All the following are true regarding premiums collected from a policyholder, EXCEPT...',
-        'correct_answer': 1        
+        'correct_answer': 19
       },      
     ];
 
