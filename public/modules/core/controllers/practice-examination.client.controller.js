@@ -1,25 +1,40 @@
 'use strict';
 
-angular.module('core').controller('PracticeExaminationController', ['$scope',
-	function($scope) {
+angular.module('core').controller('PracticeExaminationController', ['$scope', '$location',
+	function($scope, $location) {
 		// Practice examination controller logic
 		// ...
 
     $scope.index = 0;
     $scope.correct = 0;
+    $scope.answered = 0;
 
     $scope.checkAnswer = function(question_id, answer_id) {
       var question = $scope.questions.filter(function(obj) {
         return obj.id === question_id;
       });
 
-      if (question.correct_answer === answer_id)
+      if (question[0].correct_answer === answer_id)
       {
         $scope.correct++;
+        $scope.answered++;
+
+        if ($scope.answered >= $scope.questions.length)
+        {
+          $location.path('practice-examination-results');
+        }
+
         $scope.nextQuestion();
       }
       else
       {
+        $scope.answered++;
+
+        if ($scope.answered >= $scope.questions.length)
+        {
+          $location.path('practice-examination-results');
+        }
+
         $scope.nextQuestion();
       }
     };
