@@ -139,10 +139,30 @@ module.exports = function(grunt) {
 			unit: {
 				configFile: 'karma.conf.js'
 			}
-		}
+		},
+    mongoimport: {
+      options: {
+        db : 'exammasterinteractive-dev',
+          host : 'localhost', //optional
+          port: '27017', //optional
+          username : '', //optional
+          password : '',  //optional
+          stopOnError : true,  //optional
+          collections : [
+            {
+              name : 'question',
+              type : 'json',
+              file : 'data/db/collections/questions.json',
+              jsonArray : true,  //optional
+              upsert : true,  //optional
+              drop : true  //optional
+            }
+          ]
+      }
+    }
 	});
 
-	// Load NPM tasks
+  // Load NPM tasks
 	require('load-grunt-tasks')(grunt);
 
 	// Making grunt default to force in order not to break the project.
@@ -174,4 +194,128 @@ module.exports = function(grunt) {
 
 	// Test task.
 	grunt.registerTask('test', ['env:test', 'mochaTest', 'karma:unit']);
+
+  // Task for converting a question text file into a JSON file
+  grunt.registerTask(
+    'buildJSONFileFromChapterData',
+    'Converts an Exam Master Interactive question text file into a JSON format',
+    function(file_name) {
+      var textFileType = /\.txt/;
+
+      if (file_name !== '' && file_name !== null)
+      {
+				grunt.log.writeln('Reading text data file ' + file_name + '...');
+        var text_file = grunt.file.read('data/db/' + file_name);
+        var lines = text_file.split('\n');
+
+        var json = '{\n\t"questions": [\n';
+
+        lines.forEach(function(line, index) {
+          if (((index + 8) % 8 === 0) && /\S+/.test(line))
+          {
+            // this is the question content...
+            json += '\t{\n';
+            json += '\t\t"question": "' + line.replace(/[\n\r\j]/g, "") + '",\n';
+          }
+          else if ((index + 8) % 8 === 1)
+          {
+            // this is first response...
+						json += '\t\t"responses": [\n';
+            json += '\t\t\t{"response": "' + line.replace(/[\n\r\j]/g, "") + '"},\n';
+          }
+          else if ((index + 8) % 8 === 2)
+          {
+            // this is the second response...
+						json += '\t\t\t{"response": "' + line.replace(/[\n\r\j]/g, "") + '"},\n';
+          }
+          else if ((index + 8) % 8 === 3)
+          {
+            // this is the third response...
+						json += '\t\t\t{"response": "' + line.replace(/[\n\r\j]/g, "") + '"},\n';
+          }
+          else if ((index + 8) % 8 === 4)
+          {
+            // this is the fourth response...
+						json += '\t\t\t{"response": "' + line.replace(/[\n\r\j]/g, "") + '"}\n';
+						json += '\t\t],\n';
+          }
+          else if ((index + 8) % 8 === 5)
+          {
+            // this is the index value of the responses indicating the actual answer...
+            json += '\t\t"answer": "' + line.replace(/[\n\r\j]/g, "") + '",\n';
+          }
+          else if ((index + 8) % 8 === 6)
+          {
+            // this is chapter reference...
+            json += '\t\t"chapter": "' + line.replace(/[\n\r\j]/g, "") + '",\n';
+          }
+          else if ((index + 8) % 8 === 7)
+          {
+            // this is the follow up information...
+            json += '\t\t"explanation":  "' + line.replace(/[\n\r\j]/g, "") + '"\n\t}';
+						if (index < (lines.length - 2)) {
+							json += ',\n';
+						}
+						else {
+							json += '\n';
+						}
+          }
+        });
+
+        json += '\t]\n}';
+
+				grunt.log.writeln('Reading file ' + file_name + ' complete.  Writing JSON file ' + file_name.replace('.txt', '') + '.json');
+
+				if (grunt.file.exists('data/db/chapters') === false)
+				{
+					grunt.file.mkdir('data/db/chapters');
+				}
+        grunt.file.write('data/db/chapters/' + file_name.replace('.txt', '') + '.json', json);
+      }
+    }
+  );
+
+	// Task for creating MongoDB import data file
+  grunt.registerTask(
+		'importQuestionsJSONIntoMongoDB',
+		'Reads a JSON file containing list of questions for ExamMaster Interactive application.',
+		function(json_path) {
+			function addQuestionJSON(entry) {
+				var json = '\t{\n\t\t\"content\": \"' + entry.question + '\",\n';
+				json += '\t\t\"responses\": [\n';
+				entry.responses.forEach(function(item, index) {
+					json += '\t\t\t{\"content\": \"' + item.response + '\"}';
+					if (index < entry.responses.length - 1) {
+						json += ',\n';
+					}
+					else {
+						json += '\n';
+					}
+				});
+				json += '\t\t],\n';
+				json += '\t\t\"answer\": \"' + entry.answer + '\",\n';
+				json += '\t\t\"chapter\": ' + '\"' + entry.chapter + '\",\n';
+				json += '\t\t\"explanation\": ' + '\"' + entry.explanation + '\"\n\t}';
+
+				return json;
+			};
+
+			if (json_path !== '' && json_path !== null) {
+				var questions_json = '{\n\t\"questions\": [\n';
+				grunt.file.recurse(json_path, function(abspath, rootdir, subdir, filename) {
+					var json_data = grunt.file.readJSON(abspath);
+					json_data.questions.forEach(function(item, index) {
+						questions_json += addQuestionJSON(item);
+						questions_json += ',\n';
+					});
+				});
+				questions_json += '\t]\n}'
+
+				if (grunt.file.exists('data/db/collections') === false) {
+					grunt.file.mkdir('data/db/collections');
+				}
+				grunt.file.write('data/db/collections/questions.json', questions_json);
+			}
+		}
+  );
 };

@@ -1,0 +1,736 @@
+{
+	"questions": [
+	{
+		"question": "All of the following are prohibited insurance practices EXCEPT:",
+		"responses": [
+			{"response": "Making defamatory statement about a competitor."},
+			{"response": "Using a marketing brochure with deceptive information."},
+			{"response": "Paying a referral fee to an unlicensed individual."},
+			{"response": "Giving an insured part of the producer's commission for buying insurance."}
+		],
+		"answer": "3",
+		"chapter": "1-11",
+		"explanation":  ".  Paying a referral fee to an unlicensed individual is NOT a prohibited insurance practice. Insurance entities and producers may pay a referral fee to an unlicensed individual if the referring person does not discuss specific terms or conditions of the insurance contract; or in the case of referrals for insurance that is primarily personal, family or household use, the referring person receives a one-time nominal fee of a fixed dollar amount for each referral that is not dependent on whether the referral results in a sale."
+	},
+	{
+		"question": "Which of the following activities would require an individual to be licensed as a producer?",
+		"responses": [
+			{"response": "Collecting premiums at an insured's office."},
+			{"response": "Arranging or making meeting appointments for a producer."},
+			{"response": "Assisting with the completion of applications on the agency premises."},
+			{"response": "Collecting expiration data information from clients or potential clients."}
+		],
+		"answer": "1",
+		"chapter": "1-2",
+		"explanation":  ".  Collecting premiums at an insured's office would require an individual to be licensed as a producer. Unlicensed individuals are prohibited from collecting insurance premiums at an insured's office or at any location other than their agent's office. Answers 2, 3, & 4 do not require an individual to be licensed as a producer."
+	},
+	{
+		"question": "Which of the following criminal activities would NOT be a sufficient violation to warrant reection, termination, or nonrenewal of a producer's license?",
+		"responses": [
+			{"response": "Cheating on an insurance exam."},
+			{"response": "Failing to pay child support."},
+			{"response": "Failing to pay state income tax."},
+			{"response": "Failure to stop at a traffic light."}
+		],
+		"answer": "4",
+		"chapter": "1-5",
+		"explanation":  ".  Failure to stop at a traffic light (a traffic violation) is NOT a sufficient violation to warrant reection, termination, or nonrenewal of a producer's license. Cheating on an insurance exam, failing to pay child support, and failing to pay state income tax all would be sufficient violation to warrant reection, termination, or nonrenewal of a producer's license."
+	},
+	{
+		"question": "An applicant for a producer license must be at least:",
+		"responses": [
+			{"response": "16 years old."},
+			{"response": "18 years old."},
+			{"response": "19 years old."},
+			{"response": "21 years old."}
+		],
+		"answer": "2",
+		"chapter": "1-1",
+		"explanation":  ". An applicant for a producer license must be at least 18 years old."
+	},
+	{
+		"question": "The maximum fine per violation for soliciting insurance without a license is:",
+		"responses": [
+			{"response": "$300."},
+			{"response": "$500."},
+			{"response": "$1,000."},
+			{"response": "$5,000. "}
+		],
+		"answer": "4",
+		"chapter": "1-7",
+		"explanation":  ". The maximum fine per violation for soliciting insurance without a license is $5,000."
+	},
+	{
+		"question": "Which of the following is NOT a requirement necessary to qualify as a new resident producer in Pennsylvania?",
+		"responses": [
+			{"response": "Pass the exam required by statute."},
+			{"response": "Maintain a business or legal address in Pennsylvania."},
+			{"response": "Complete a 24-hour pre-licensing course."},
+			{"response": "Post a fidelity bond."}
+		],
+		"answer": "4",
+		"chapter": "1-1",
+		"explanation":  ". To qualify as a new resident producer in Pennsylvania you do NOT have to post a fidelity bond. You do have to complete a 24-hour pre-licensing education course, maintain a business and legal residence in Pennsylvania, and pass the state licensing exam."
+	},
+	{
+		"question": "All of the following applicants may be denied a producer's license EXCEPT:",
+		"responses": [
+			{"response": "An applicant unable to read and write English."},
+			{"response": "An individual on probation."},
+			{"response": "An individual who provides false or incomplete information on a license application."},
+			{"response": "A stockbroker."}
+		],
+		"answer": "4",
+		"chapter": "1-1 & 1,3 & 1-5",
+		"explanation":  ". An individual may NOT be denied a license ust because he or she is a stockbroker. An applicant unable to read and write English, an individual on probation, or an individual who provides false or incomplete information on a license application may all be denied a producer's license."
+	},
+	{
+		"question": "Which of the following Acts was established to protect individuals from possible abuses of information contained in their credit files?",
+		"responses": [
+			{"response": "Trade Practices Act of 1974."},
+			{"response": "McCarren-Ferguson Act."},
+			{"response": "Unfair Claims Settlement Act."},
+			{"response": "The Fair Credit Reporting Act."}
+		],
+		"answer": "4",
+		"chapter": "1-15",
+		"explanation":  ". The Fair Credit Reporting Act was established to protect individuals from possible abuses of information contained in their credit files. Since insurers commonly use credit history as part of the underwriting criteria, this Act applies to protect the applicant. The other Acts address areas of producer, aduster, and insurer practices."
+	},
+	{
+		"question": "Producers representing a consumer in a fee arrangement must:",
+		"responses": [
+			{"response": "Execute a written contract with the insurance company."},
+			{"response": "Execute a written contract with the insurance department."},
+			{"response": "Execute a written contract with an attorney."},
+			{"response": "Execute a written contract with the consumer."}
+		],
+		"answer": "4",
+		"chapter": "1-2",
+		"explanation":  ". Producers representing a consumer in a fee arrangement must execute a written contract with the consumer."
+	},
+	{
+		"question": "Producers may co-mingle business monies with personal monies:",
+		"responses": [
+			{"response": "Only if permitted in writing by the Insurance Commissioner."},
+			{"response": "At any time if permitted by the insured."},
+			{"response": "Only if each represented insurance company provides prior written consent."},
+			{"response": "Never."}
+		],
+		"answer": "3",
+		"chapter": "1-3",
+		"explanation":  ". Producers may co-mingle business monies with personal monies only if each represented insurance company provides prior written consent. Otherwise, producers may not co-mingle business monies with personal monies."
+	},
+	{
+		"question": "A temporary license permits an executor or administrator of a deceased producer's estate to do all the following EXCEPT:",
+		"responses": [
+			{"response": "Attempt to sell the agency."},
+			{"response": "Process normal correspondence."},
+			{"response": "Solicit new business."},
+			{"response": "Receive commissions."}
+		],
+		"answer": "3",
+		"chapter": "1-3",
+		"explanation":  ".  A temporary license does NOT permit the executor or administrator of a deceased producer's estate to solicit new business. The executor or administrator is permitted to attempt to sell the agency, process normal correspondence, and receive commissions on existing business."
+	},
+	{
+		"question": "The practice of giving back to an insured a portion of the commissions earned on the sale of a policy is:",
+		"responses": [
+			{"response": "Twisting."},
+			{"response": "A good business practice."},
+			{"response": "Rebating."},
+			{"response": "Permitted under the Unfair Insurance Practices Act."}
+		],
+		"answer": "3",
+		"chapter": "1-11",
+		"explanation":  ". The practice of giving back to an insured a portion of the commissions earned on the sale of a policy is rebating. Rebating is a prohibited practice."
+	},
+	{
+		"question": "Which of the following does not characterize the processing of complaints filed with the insurance department against producers and insurers?",
+		"responses": [
+			{"response": "May be appealed to Commonwealth Court."},
+			{"response": "Is usually investigated by an insurance department employee."},
+			{"response": "May involve a formal hearing in Harrisburg."},
+			{"response": "Is generally handled by the local District Attorney."}
+		],
+		"answer": "4",
+		"chapter": "1-8",
+		"explanation":  ". Complaints filed against producers and insurers are not handled by the local District Attorney. Complaints are generally investigated by an insurance department employee and may involve a formal hearing in Harrisburg. The results of that hearing may be later appealed to Commonwealth Court."
+	},
+	{
+		"question": "A temporary license may be issued to approved individuals for a period of:",
+		"responses": [
+			{"response": "30 days."},
+			{"response": "60 days."},
+			{"response": "90 days."},
+			{"response": "180 days."}
+		],
+		"answer": "4",
+		"chapter": "1-3",
+		"explanation":  ".  A temporary license may be issued to approved individuals for a period of 180 days."
+	},
+	{
+		"question": "All of the following are functions and obectives of the insurance department EXCEPT:",
+		"responses": [
+			{"response": "To ensure the public's interest is protected."},
+			{"response": "To provide adequate rate levels and promote solvency."},
+			{"response": "To ensure fair and equitable treatment of the public and companies."},
+			{"response": "To ensure competitive rates."}
+		],
+		"answer": "4",
+		"chapter": "1-8 & 1-9",
+		"explanation":  ".  Ensuring competitive rates is NOT a function or obective of the insurance department. The insurance department attempts to protect the public's interest, promotes adequate rate levels and solvency, and ensures fair and equitable treatment of the public and companies."
+	},
+	{
+		"question": "Which of the following is NOT an example of an unfair trade practice?",
+		"responses": [
+			{"response": "Publishing a false illustration."},
+			{"response": "Discrimination based upon sound actuarial ustification."},
+			{"response": "Deceptive advertising."},
+			{"response": "Illegal inducement."}
+		],
+		"answer": "2",
+		"chapter": "1-11 & 1-12",
+		"explanation":  ".  Discrimination based upon sound actuarial ustification is NOT an unfair trade practice. For example, insurers charge higher auto premiums for younger drivers because they have a disproportionate number of driving accidents. Publishing a false illustration, deceptive advertising, and illegal inducements are all unfair trade practices."
+	},
+	{
+		"question": "Which of the following individuals would be required to be licensed?",
+		"responses": [
+			{"response": "An insurance consultant who shares commissions with a producer."},
+			{"response": "A premium auditor who verifies a business's payroll for insurance purposes."},
+			{"response": "A loss control representative who identifies hazards at the insured's business."},
+			{"response": "A risk manager who supervises a maor corporation's insurance program."}
+		],
+		"answer": "1",
+		"chapter": "1-2 & 1-12",
+		"explanation":  ".  An insurance consultant who shares commissions with an insurance producer is required to be licensed. Premium auditors, loss control representatives, and risk managers do not have be licensed unless acting as an insurance producer."
+	},
+	{
+		"question": "The activity of exchanging a gift or other consideration as an inducement for the purchase of insurance is:",
+		"responses": [
+			{"response": "Twisting."},
+			{"response": "Rebating."},
+			{"response": "A legal inducement."},
+			{"response": "An incentive."}
+		],
+		"answer": "2",
+		"chapter": "1-11",
+		"explanation":  ".  The activity of exchanging a gift or other consideration as an inducement for the purchase of insurance is rebating. Twisting is when a producer misrepresents the conditions of a policy causing the applicant to buy coverage based upon false information. Answers 3 & 4 (legal inducement & incentive) have no bearing on the question."
+	},
+	{
+		"question": "Protection of a client's nonpublic personal information is specifically addressed in the:",
+		"responses": [
+			{"response": "Unfair Insurance Practices Act of 1974."},
+			{"response": "Privacy of Consumer Financial Information Regulations."},
+			{"response": "Fair Credit Reporting Act."},
+			{"response": "Claims Settlement Practices Act."}
+		],
+		"answer": "2",
+		"chapter": "1-13",
+		"explanation":  ".  Protection of a client's nonpublic personal information is specifically addressed in the Privacy of Consumer Financial Information Regulations. The Unfair Insurance Practices Act addresses producer trade practices. The Fair Credit Reporting Act addresses credit reporting issues. The Claims Settlement Practices Act addresses the claims practices activities of insurance adusters."
+	},
+	{
+		"question": "The Unfair Insurance Practices Act of 1974:",
+		"responses": [
+			{"response": "Advises producers and insurers of fair and acceptable trade practices."},
+			{"response": "Exclusively regulates the activities of insurers in the excess and surplus lines."},
+			{"response": "Regulates trade practices by defining practices that constitute unfair methods of competition or deceptive practices."},
+			{"response": "Only applies to life insurance activities."}
+		],
+		"answer": "3",
+		"chapter": "1-12",
+		"explanation":  ".  The Unfair Insurance Practices Act of 1974 regulates trade practices by defining practices that constitute unfair methods of competition or deceptive practices. Unfair insurance practices include rebating, misrepresentation, deceptive sales practices, etc. The Unfair Insurance Practices Act is applicable to all licensees (property, casualty, life, health, etc.)."
+	},
+	{
+		"question": "All of the following would be considered an unfair claims practice EXCEPT:",
+		"responses": [
+			{"response": "Refusing to pay claims."},
+			{"response": "Failure to acknowledge written or oral communications."},
+			{"response": "Dealing with the insured or claimant in good faith."},
+			{"response": "Failure to deny or affirm coverage."}
+		],
+		"answer": "3",
+		"chapter": "1-10",
+		"explanation":  ".  Dealing with the insured or claimant in good faith is NOT an unfair claims practice. Good faith and fair dealings with an insured or claimant is exactly what an insurance aduster should do. Refusing to pay claims, failing to acknowledge written or oral communications, and failing to affirm or deny coverages are all examples of unfair claims practices."
+	},
+	{
+		"question": "Producers are permitted to share or split commissions if:",
+		"responses": [
+			{"response": "The insured knows of the arrangement."},
+			{"response": "There is a written agreement between the two producers."},
+			{"response": "Both are licensed for the same powers."},
+			{"response": "The insurance department knows of the arrangement."}
+		],
+		"answer": "3",
+		"chapter": "1-12",
+		"explanation":  ".  Producers are permitted to share or split commissions if both producers are licensed for the same powers."
+	},
+	{
+		"question": "A producer who has both his business and legal address outside the Commonwealth of Pennsylvania is considered:",
+		"responses": [
+			{"response": "A competitive producer."},
+			{"response": "An alien producer."},
+			{"response": "A nonresident producer."},
+			{"response": "A domestic producer."}
+		],
+		"answer": "3",
+		"chapter": "1-3",
+		"explanation":  ".  A producer who has both his business and legal address outside the Commonwealth of Pennsylvania is considered a nonresident producer."
+	},
+	{
+		"question": "The practice of misrepresenting policy provisions and making incomplete comparisons as a method to induce an insured to drop an existing policy and purchase a new policy is:",
+		"responses": [
+			{"response": "Disclosure."},
+			{"response": "A legal inducement."},
+			{"response": "Twisting."},
+			{"response": "Rebating."}
+		],
+		"answer": "3",
+		"chapter": "1-11",
+		"explanation":  ". The practice of misrepresenting policy provisions and making incomplete comparisons as a method to induce an insured to drop an existing policy and purchase a new policy is twisting. Rebating is the prohibited practice of giving back to the applicant/insured part of the commission as an inducement to buy insurance. Answers 1 & 2 have no relationship to the question."
+	},
+	{
+		"question": "All of the following would be considered an Unfair Claims Settlement Practice EXCEPT:",
+		"responses": [
+			{"response": "Misrepresenting policy provisions."},
+			{"response": "Failure to pay a claim not covered."},
+			{"response": "Failure to promptly investigate claims."},
+			{"response": "Failure to deny or affirm coverages or pay a claim."}
+		],
+		"answer": "2",
+		"chapter": "1-10",
+		"explanation":  ".  Failure to pay a claim not covered is NOT considered an Unfair Claims Settlement Practice. Failing to pay a claim not covered is what an insurance aduster is supposed to do -- deny claims that are not covered. Misrepresenting policy provisions, failing to promptly investigate claims, and failing to deny/affirm coverages or pay a claim are all examples of unfair claims settlement practices."
+	},
+	{
+		"question": "All of the following are true regarding premiums collected from a policyholder EXCEPT:",
+		"responses": [
+			{"response": "Producers may not co-mingle business monies with personal monies unless each insurance company provides written permission."},
+			{"response": "Producers who make remittance of premiums collected in the same form as received, need not maintain a separate account."},
+			{"response": "Producers who receive cash from insureds may deposit the money into his or her personal account and write a check to the insurance company."},
+			{"response": "If a producer holds a policyholder's funds, they must be maintained in a separate account."}
+		],
+		"answer": "3",
+		"chapter": "1-3",
+		"explanation":  ".  Producers who receive cash from insureds may NOT deposit the money into his or her personal account and write a check to the insurance company. Personal and business monies may not be co-mingled without written permission from each insurer. Answers 1, 2, & 4 are all true statements regarding premiums collected from a policyholder."
+	},
+	{
+		"question": "All of the following are true of the Pennsylvania Property and Casualty Insurance Guaranty Association Act EXCEPT:",
+		"responses": [
+			{"response": "Coverage is provided for certain property and casualty policies."},
+			{"response": "Coverage is provided for workers compensation and surety losses."},
+			{"response": "Coverage is provided to individuals insured with admitted carriers."},
+			{"response": "Coverage is provided up to $300,000 per claim."}
+		],
+		"answer": "2",
+		"chapter": "1-9",
+		"explanation":  ".  The Pennsylvania Property and Casualty Insurance Guaranty Association Act does NOT cover workers compensation insurance or surety insurance. Answers 1, 3, & 4 are all true of the Pennsylvania Property and Casualty Insurance Guaranty Association Act."
+	},
+	{
+		"question": "All of the following are examples of activities that may cause the insurance department to fine, revoke, or nonrenew a producer's license EXCEPT:",
+		"responses": [
+			{"response": "Transacting business with an unauthorized producer."},
+			{"response": "Advertising as a producer for an unauthorized insurance company."},
+			{"response": "Placing business with an admitted insurance company."},
+			{"response": "Soliciting for fictitious or dead insurance companies."}
+		],
+		"answer": "3",
+		"chapter": "1-7",
+		"explanation":  ".  A producer may place business with an admitted insurance company. Answers 1, 2, & 4 are activities that would cause the insurance department to fine, revoke or nonrenew a producer's license. A producer may not transact business with an unauthorized producer, advertise as a producer for an unauthorized insurance company, or place business with a fictitious or dead insurance company."
+	},
+	{
+		"question": "All of the following are true of the Continuing Education Regulation EXCEPT:",
+		"responses": [
+			{"response": "Licensed producers have a continuing education requirement."},
+			{"response": "Continuing education is waived for insurance producers who are attorneys at law."},
+			{"response": "New producers must complete 24 credit hours per licensing period."},
+			{"response": "Producers may complete approved Internet continuing education courses."}
+		],
+		"answer": "2",
+		"chapter": "1-6",
+		"explanation":  ".  Continuing education is NOT waived for insurance producers who are attorneys at law. Answers 1, 3, & 4 are all true of the Continuing Education Regulation. Pennsylvania's CE regulation requires all insurance producers to complete the 24-hour CE requirement every two years. Attorneys are not exempt."
+	},
+	{
+		"question": "A producer:",
+		"responses": [
+			{"response": "Must complete 24 credit hours of continuing education every two years."},
+			{"response": "Has no continuing education requirements if the producer is a CLU."},
+			{"response": "Has no continuing education requirement if enrolled in college."},
+			{"response": "Has no continuing education requirements."}
+		],
+		"answer": "1",
+		"chapter": "1-6",
+		"explanation":  ".  A producer must complete 24 credit hours of continuing education every two years."
+	},
+	{
+		"question": "All of the following are true of producers EXCEPT:",
+		"responses": [
+			{"response": "They may represent the insured."},
+			{"response": "They may represent the insurer."},
+			{"response": "They may represent themselves."},
+			{"response": "They may represent the claimant."}
+		],
+		"answer": "4",
+		"chapter": "1-2",
+		"explanation":  ".  Producers do NOT represent claimants. Claimants are represented by attorneys, and in some cases (property loss claims) public adusters. Producers represent themselves when soliciting insurance, represent the client when securing insurance, and represent the insurer when delivering a policy."
+	},
+	{
+		"question": "A producer who changes his or her name must notify the insurance department within:",
+		"responses": [
+			{"response": "10 days."},
+			{"response": "15 days."},
+			{"response": "20 days."},
+			{"response": "30 days."}
+		],
+		"answer": "4",
+		"chapter": "1-4",
+		"explanation":  ".  A producer who changes his or her name (e.g., marriage or divorce) must notify the insurance department within 30 days. This same 30-day notice requirement also applies if the producer changes his or her address, sells an agency, or is charged with criminal conduct."
+	},
+	{
+		"question": "A producer who changes his or her residence or business address must notify the insurance department within:",
+		"responses": [
+			{"response": "10 days."},
+			{"response": "15 days."},
+			{"response": "20 days."},
+			{"response": "30 days."}
+		],
+		"answer": "4",
+		"chapter": "1-4",
+		"explanation":  ".  A producer who changes his or her residence or business address must notify the insurance department within 30 days. This same 30-day notice requirement also applies if the producer changes his or her name, sells an agency, or is charged with criminal conduct."
+	},
+	{
+		"question": "An insurance company aduster must accept or deny a claim within:",
+		"responses": [
+			{"response": "10 working days in all instances."},
+			{"response": "10 working days unless payment is made within that time period."},
+			{"response": "15 working days after receipt of a properly executed proof of loss from the insured."},
+			{"response": "20 working days.   "}
+		],
+		"answer": "3",
+		"chapter": "1-10",
+		"explanation":  ".  An insurance company aduster must accept or deny a claim within 15 working days after receipt of a properly executed proof of loss from the insured. A proof of loss is a demand for payment under an insurance policy."
+	},
+	{
+		"question": "A producer charged with forgery must notify the insurance department within:",
+		"responses": [
+			{"response": "10 days."},
+			{"response": "15 days."},
+			{"response": "20 days."},
+			{"response": "30 days. "}
+		],
+		"answer": "4",
+		"chapter": "1-4",
+		"explanation":  ".  A producer who is charged with forgery must notify the insurance department within 30 days. This same 30-day notice requirement also applies if the producer changes his or her name, changes his or her residence or business address, or sells his agency. "
+	},
+	{
+		"question": "Which of the following activities would require an agency employee to be licensed?",
+		"responses": [
+			{"response": "Collecting expiration data from clients."},
+			{"response": "Assisting with the completion of applications."},
+			{"response": "Counseling an applicant on a product."},
+			{"response": "Discussing insurance in general if no recommendations are made with respect to rates.  "}
+		],
+		"answer": "3",
+		"chapter": "1-2",
+		"explanation":  ".  An agency employee is required to be licensed if he or she counsels (advises) an applicant on a product. The agency employee does not have to be licensed if he or she collects expiration data, assists with the completion of an application, or discusses insurance matters in general as long as no recommendations are made."
+	},
+	{
+		"question": "Which of the following would be considered an illegal inducement?",
+		"responses": [
+			{"response": "Confirming future dividends in a proposal."},
+			{"response": "Listing the insurance companies the agency represents in a letter."},
+			{"response": "Mailing an agency brochure to a prospective client."},
+			{"response": "Inviting prospective clients to the grand opening of the producer's new office.   "}
+		],
+		"answer": "1",
+		"chapter": "1-11",
+		"explanation":  ".  Confirming future dividends in a proposal would be considered an illegal inducement. An illegal inducement is any illegal activity that causes an individual to enter into an insurance contract. Since dividends are not guaranteed, stating so would be an illegal inducement. Answers 2, 3, & 4 are all permitted activities."
+	},
+	{
+		"question": "An applicant's licensing exam results are valid for:",
+		"responses": [
+			{"response": "60 days from the date of the exam."},
+			{"response": "90 days from the date of the exam."},
+			{"response": "180 days from the date of the exam."},
+			{"response": "One year from the date of the exam.  "}
+		],
+		"answer": "4",
+		"chapter": "1-1",
+		"explanation":  ".  An applicant's licensing exam results are valid for one year from the date of his or her exam. Applicants who do not make application with the insurance department, and do not have their licensed issued within the one-year period will have to complete the PE requirement and retake their insurance exam."
+	},
+	{
+		"question": "Which of the following activities would be considered an illegal inducement?",
+		"responses": [
+			{"response": "Advertising the opening of a producer's new office."},
+			{"response": "Advertising that dividends will be guaranteed."},
+			{"response": "Advertising the names of the carriers a producer represents."},
+			{"response": "Advertising the agency staff in a brochure. "}
+		],
+		"answer": "2",
+		"chapter": "1-11",
+		"explanation":  ".  Advertising that dividends will be guaranteed would be considered an illegal inducement. An illegal inducement is any illegal activity that causes an individual to enter into an insurance contract. Since dividends are not guaranteed, stating so would be an illegal inducement. Answers 1, 3, & 4 are all permitted activities."
+	},
+	{
+		"question": "All of the following are requirements of individuals seeking a producer license EXCEPT:",
+		"responses": [
+			{"response": "They must complete the pre-licensing education requirements."},
+			{"response": "They must pass the state exam or be granted a waiver."},
+			{"response": "They must agree to adhere to Pennsylvania Insurance laws."},
+			{"response": "They must be appointed by an insurance company.  "}
+		],
+		"answer": "4",
+		"chapter": "1-7",
+		"explanation":  ".  Individuals seeking a producer license do NOT have to be appointed by an insurance company. However, individuals seeking a producer license must complete the pre-licensing education requirements or be granted a waiver and adhere to the Pennsylvania Insurance laws. "
+	},
+	{
+		"question": "Which of the following terms represents the future payments required of an insurance company to its policyholders?",
+		"responses": [
+			{"response": "Assets."},
+			{"response": "Reserves."},
+			{"response": "Surplus."},
+			{"response": "Liabilities.  "}
+		],
+		"answer": "2",
+		"chapter": "1-13",
+		"explanation":  ".  Future payments required of an insurance company to its policyholders are called reserves. Reserves represent a future liability that the insurance company will have to pay. The term surplus is the amount assets exceed liabilities on the insurance company's balance sheet. These two terms (reserves and surplus) are insurance accounting terms."
+	},
+	{
+		"question": "A producer may carry forward how many continuing education credits from one licensing period to the next licensing period?",
+		"responses": [
+			{"response": "None."},
+			{"response": "12."},
+			{"response": "24."},
+			{"response": "Unlimited.      "}
+		],
+		"answer": "3",
+		"chapter": "1-6",
+		"explanation":  ".  A producer may carry forward 24 continuing education credits from one licensing period to the next. "
+	},
+	{
+		"question": "All of the following are true of Pennsylvania's Insurance Fraud Regulation EXCEPT:",
+		"responses": [
+			{"response": "Individuals convicted of insurance fraud are subect to criminal penalties."},
+			{"response": "Individuals convicted of insurance fraud are subect to civil penalties."},
+			{"response": "Individuals convicted of insurance fraud are subect to community penalties."},
+			{"response": "Individuals convicted of insurance fraud are subect to restitution. "}
+		],
+		"answer": "3",
+		"chapter": "1-14",
+		"explanation":  ".  The Pennsylvania Insurance Fraud Regulation does NOT subect the individual to community penalties. Pennsylvania's Insurance Fraud Regulation subects individuals to criminal penalties, civil fines, and restitution if an individual is convicted of insurance fraud."
+	},
+	{
+		"question": "Which of the following is NOT an insurance fraud violation?",
+		"responses": [
+			{"response": "Knowingly receiving proceeds from insurance fraud."},
+			{"response": "Filing an application containing false, non-material information."},
+			{"response": "Compensation by a lawyer to others for medical information on individuals."},
+			{"response": "Compensation by a health care provider to others to refer patients. "}
+		],
+		"answer": "2",
+		"chapter": "1-14",
+		"explanation":  ".  Filing an application with false, non-material information is NOT an insurance fraud violation. Knowingly receiving proceeds from insurance fraud, compensation by a lawyer to others for medical information on individuals, and compensation by a health care provider to others to refer patients are all insurance fraud violations. "
+	},
+	{
+		"question": "A producer may charge a fee in addition to a commission on:",
+		"responses": [
+			{"response": "Primary business."},
+			{"response": "Excess business."},
+			{"response": "Personal business."},
+			{"response": "Commercial business."}
+		],
+		"answer": "4",
+		"chapter": "1-12",
+		"explanation":  ".  A producer may charge a fee in addition to a commission on commercial business. "
+	},
+	{
+		"question": "Unlicensed individuals may receive:",
+		"responses": [
+			{"response": "Commissions from an insurer."},
+			{"response": "A referral fee from a producer or insurer."},
+			{"response": "A percent of the policy's commission."},
+			{"response": "Free insurance."}
+		],
+		"answer": "2",
+		"chapter": "1-12",
+		"explanation":  ".  Unlicensed individuals may receive a referral fee from a producer or insurer. Unlicensed individuals may not receive a commission, a percent of the policy's commission, or free insurance."
+	},
+	{
+		"question": "An individual that brokers business must have:",
+		"responses": [
+			{"response": "A broker license."},
+			{"response": "An agent license."},
+			{"response": "A consultant license."},
+			{"response": "A producer license."}
+		],
+		"answer": "4",
+		"chapter": "1-2",
+		"explanation":  ".  An individual that brokers business must have a producer license. Pennsylvania does not issue agent, broker, or consultant licenses."
+	},
+	{
+		"question": "The failure to comply with the 24 credit hour continuing education requirement will result in:",
+		"responses": [
+			{"response": "Voluntary termination of the producer's license."},
+			{"response": "Involuntary termination of the producer's license."},
+			{"response": "Temporary termination of the producer's license."},
+			{"response": "Permanent termination of the producer's license."}
+		],
+		"answer": "1",
+		"chapter": "1-6",
+		"explanation":  ". The failure to comply with the 24 credit hour continuing education requirement will result in voluntary termination of the producer's license. "
+	},
+	{
+		"question": "A Managing General Agent:",
+		"responses": [
+			{"response": "Acts as a public aduster."},
+			{"response": "Generally has specialized expertise."},
+			{"response": "Acts as a solicitor for a producer."},
+			{"response": "Conducts fee-only financial planning."}
+		],
+		"answer": "2",
+		"chapter": "1-3",
+		"explanation":  ".  A Managing General Agent generally has specialized expertise."
+	},
+	{
+		"question": "Entering into an agreement that results in the unreasonable restraint of trade would be considered:",
+		"responses": [
+			{"response": "Rebating."},
+			{"response": "Twisting."},
+			{"response": "Defamation."},
+			{"response": "Boycott."}
+		],
+		"answer": "4",
+		"chapter": "1-11",
+		"explanation":  ".  Entering into an agreement that results in the unreasonable restraint of trade would be considered boycott. Rebating is when an agent gives back to the insured part of his commission. Twisting is when an agent misrepresents policy provisions as an inducement to terminate one policy and purchase a second policy. Defamation is when an agent makes false or derogatory statements about an insurer's financial position."
+	},
+	{
+		"question": "In Pennsylvania, insurers seeking to introduce new policy forms and rates are generally subect to:",
+		"responses": [
+			{"response": "A prior approval law."},
+			{"response": "A file-and-use-law."},
+			{"response": "A use-and-file law."},
+			{"response": "An open competition law."}
+		],
+		"answer": "1",
+		"chapter": "1-9",
+		"explanation":  ".  Most insurers seeking to introduce new policy forms and rates are generally subect to a prior approval law. All personal lines and many standard commercial policies require insurers to file their policy forms and rates for approval by the insurance department prior to the use. Some policies are subect to a file-and-use or use-and-file law. "
+	},
+	{
+		"question": "Which of the following reasons would not require a producer to notify the Insurance Commissioner?",
+		"responses": [
+			{"response": "Change of address."},
+			{"response": "Change of name."},
+			{"response": "Change of agency�s ownership. "},
+			{"response": "Change in ob title."}
+		],
+		"answer": "4",
+		"chapter": "1-4",
+		"explanation":  ".  Change of ob title would not require a producer to notify the Insurance Commissioner. Answers 1, 2, and 3 are all reasons, and the producer must report within 30 days."
+	},
+	{
+		"question": "Under federal law, an individual�s fraudulent conduct that affects interstate commerce and eopardizes the financial soundness of an insurer, subects that individual to a maximum term of imprisonment of:",
+		"responses": [
+			{"response": "5 years"},
+			{"response": "10 years"},
+			{"response": "15 years"},
+			{"response": "20 years"}
+		],
+		"answer": "3",
+		"chapter": "1-15",
+		"explanation":  ".  An individual�s fraudulent conduct that affects interstate commerce and eopardizes the safety and soundness of an insurer (e.g., causing conservation, rehabilitation or liquidation of an insurer), subects that individual to imprisonment of up to 15 years. In addition, the Attorney General may bring a civil action against any person that engages in such conduct and may be subect to a civil penalty of not more than $50,000 for each violation or the amount of compensation the person received or offered for the prohibited conduct, whichever is greater. Note that if the fraudulent conduct does not eopardize the financial soundness of an insurer the maximum term of imprisonment is 10 years."
+	},
+	{
+		"question": "Under federal law, an individual�s fraudulent conduct that affects interstate commerce such as the making of false material statements, willfully overvaluing property, misappropriating money, funds, premiums, credits or other property subects that individual to a maximum term of imprisonment of:",
+		"responses": [
+			{"response": "5 years"},
+			{"response": "10 years"},
+			{"response": "15 years"},
+			{"response": "20 years"}
+		],
+		"answer": "2",
+		"chapter": "1-15",
+		"explanation":  ".  An individual�s fraudulent conduct (e.g., making false material statements; willfully overvaluing property; misappropriating moneys, funds, premiums, credits or other property) that affects interstate commerce subects that individual to imprisonment of up to 10 years.  In addition, the Attorney General may bring a civil action against any person that engages in such conduct and that person may be subect to a civil penalty of not more than $50,000 for each violation or the amount of compensation the person received or offered for the prohibited conduct, whichever is greater. Note that if the conduct eopardizes the financial soundness of an insurer (e.g., causing conservation, rehabilitation or liquidation of an insurer) the maximum term of imprisonment is 15 years."
+	},
+	{
+		"question": "How often is an insured to receive the privacy notice disclosure?",
+		"responses": [
+			{"response": "At least every year."},
+			{"response": "At least every two years."},
+			{"response": "At least every three years."},
+			{"response": "At least every five years."}
+		],
+		"answer": "1",
+		"chapter": "1-13",
+		"explanation":  ".  Insurers are required to provide insureds with a privacy notice disclosure at least every year. The privacy notice disclosure explains to the insured how its used and to whom the insurer disseminates non-public personal information (salary, health history, bank account information, assets, etc). "
+	},
+	{
+		"question": "A producer who fails to renew his or her license due to a lack of CE credits:",
+		"responses": [
+			{"response": "Will result in their license being voluntarily terminated on the license renewal date."},
+			{"response": "Will result in their license being involuntarily terminated on the license renewal date."},
+			{"response": "Has 30 days from the license renewal date to comply with the CE requirement with no lapse in licensure."},
+			{"response": "Has 60 days from the license renewal date to comply with the CE requirement with no lapse in licensure."}
+		],
+		"answer": "4",
+		"chapter": "1-7",
+		"explanation":  ".  A producer who fails to renew his or her license due to a lack of CE credits has 60 days from the license renewal date to comply with the CE requirement with no lapse in licensure. After 60 days, there will be a lapse in licensure. After one year, the producer must complete 24 hours of pre-licensing education and pass his or her exam as if a new first time producer."
+	},
+	{
+		"question": "A producer must notify the insurance department within 30 days of being:",
+		"responses": [
+			{"response": "Advised by an attorney of a pending civil lawsuit."},
+			{"response": "Sued by an insured for an alleged failure to place proper coverage."},
+			{"response": "Charged with a misdemeanor involving theft of property or money."},
+			{"response": "Convicted of misdemeanor involving theft of property or money."}
+		],
+		"answer": "3",
+		"chapter": "1-4 & 1-5",
+		"explanation":  ".  Producers are required to notify the insurance department within 30 days of being charged with a misdemeanor involving theft of property or money (note that this reporting requirement also applies to being charged with any type of felony). Commonly individuals believe that this notification requirement is only applicable after being convicted, however, the insurance department mandates notification within 30 days of being charged. There is no reporting requirement for answers 1 or 2, and answer 4 is incorrect because the producer must notify the insurance department prior to being convicted."
+	},
+	{
+		"question": "A producer must notify the insurance department within 30 days of being:",
+		"responses": [
+			{"response": "Sued by an insured for an alleged failure to place proper coverage."},
+			{"response": "Advised by an attorney of a pending civil lawsuit. "},
+			{"response": "Convicted of a felony."},
+			{"response": "Charged with a felony."}
+		],
+		"answer": "4",
+		"chapter": "1-4 & 1-5",
+		"explanation":  ".  Producers are required to notify the insurance department within 30 days of being charged with a felony (note that this reporting requirement also applies to being charged with a misdemeanor involving theft of property or money). Commonly individuals believe that this notification requirement is only applicable after being convicted, however, the insurance department mandates notification within 30 days of being charged. There is no reporting requirement for answers 1 or 2, and answer 3 is incorrect because the producer must notify the insurance department prior to being convicted."
+	},
+	{
+		"question": "All of the following are characteristics of a licensed insurance company EXCEPT:",
+		"responses": [
+			{"response": "It must pass state required minimum financial standards."},
+			{"response": "It must certify that its producers are qualified in the business of insurance."},
+			{"response": "It must utilize policy forms and rates prior to department approval."},
+			{"response": "It must agree to abide by statutory regulation."}
+		],
+		"answer": "3",
+		"chapter": "1-6 & 1-9",
+		"explanation":  ".  Pennsylvania requires prior approval of most policy forms and rates before their introduction to the public, however, this provision does not apply to certain unique commercial risks (aircraft, extortion, kidnap and ransom) or large commercial risks. Large commercial risks are ones in which: the premiums exceed $25,000 annually (exclusive of workers compensation), the entity has at least 25 full-time employees and the entity uses an employee as the insurance buyer or retains a qualified risk manager or risk management consultant. These risks are fully exempt from filing or subect to a file-and-use or a use-and-file rating law."
+	},
+	{
+		"question": "The document issued by the insurance department permitting an insurer to conduct business within the Commonwealth is a:",
+		"responses": [
+			{"response": "Certificate of Insurance."},
+			{"response": "Certificate of Authority."},
+			{"response": "Certificate of Qualification."},
+			{"response": "Certificate of Solvency."}
+		],
+		"answer": "2",
+		"chapter": "1-9",
+		"explanation":  ". The document issued by the insurance department permitting an insurer to conduct business within the Commonwealth is a Certificate of Authority. Insurers failing to secure a certificate are subect to a penalty of between $1,000 and $10,000 per offense. If an insurer exceeds the powers granted under its authority, it is subect to a civil penalty of $500 for each policy issued. "
+	},
+	{
+		"question": "A producer�s proper use of telephones in prospecting is provided in the:",
+		"responses": [
+			{"response": "Pennsylvania�s Privacy of Consumer Financial Information Regulation."},
+			{"response": "Unfair Insurance Practices Act."},
+			{"response": "Fair Credit Reporting Act."},
+			{"response": "Do-Not-Call Rules."}
+		],
+		"answer": "4",
+		"chapter": "1-15 ",
+		"explanation":  ".  A producer�s proper use of telephones in prospecting is provided in the Do-Not-Call Rules. The Do-Not-Call List was enacted by the Federal Communication Commission (FCC) in an effort to promote privacy and a choice regarding the number and type of telemarketing calls received by consumers. The federal do-not-call rules prohibit anyone from making residential telephone solicitations to telephone numbers that are registered in the national do-not-call database unless the individual has an �established business relationship� (EBR) with the consumer or has prior written consent. "
+	}
+	]
+}

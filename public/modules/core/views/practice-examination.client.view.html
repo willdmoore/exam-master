@@ -1,5 +1,7 @@
 <section data-ng-controller="PracticeExaminationController">
   <div class="col-md-12 practice-examination-pane">
+    <div class="practice-examination-mode text-center">{{mode.label}}</div>
+    <div class="practice-examination-chapter text-center">{{chapter.label}}</div>
     <div class="practice-examination-question col-md-12 text-center">
       {{questions[index].content}}
     </div>

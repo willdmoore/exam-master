@@ -54,3 +54,20 @@ div.practice-examination-answers {
 div.practice-examination-navigation {
   margin-bottom: 40px;
 }
+div.practice-examination-chapter-main {
+  margin: 0 auto;
+}
+div.practice-examination-chapter-left {
+  padding: 10px 20px 20px 10px;
+}
+div.practice-examination-chapter-left a {
+  margin-bottom: 10px;
+  width: 100%;
+}
+div.practice-examination-chapter-right {
+  padding: 10px 20px 20px 10px;
+}
+div.practice-examination-chapter-right a {
+  margin-bottom: 10px;
+  width: 100%;
+}

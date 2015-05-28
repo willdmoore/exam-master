@@ -1,0 +1,736 @@
+{
+"answers": [
+	{
+		"content": "Making defamatory statement about a competitor."
+},
+	{
+		"content": "Using a marketing brochure with deceptive information."
+},
+	{
+		"content": "Paying a referral fee to an unlicensed individual."
+},
+	{
+		"content": "Giving an insured part of the producer's commission for buying insurance."
+},
+	{
+		"content": "Collecting premiums at an insured's office."
+},
+	{
+		"content": "Arranging or making meeting appointments for a producer."
+},
+	{
+		"content": "Assisting with the completion of applications on the agency premises."
+},
+	{
+		"content": "Collecting expiration data information from clients or potential clients."
+},
+	{
+		"content": "Cheating on an insurance exam."
+},
+	{
+		"content": "Failing to pay child support."
+},
+	{
+		"content": "Failing to pay state income tax."
+},
+	{
+		"content": "Failure to stop at a traffic light."
+},
+	{
+		"content": "16 years old."
+},
+	{
+		"content": "18 years old."
+},
+	{
+		"content": "19 years old."
+},
+	{
+		"content": "21 years old."
+},
+	{
+		"content": "$300."
+},
+	{
+		"content": "$500."
+},
+	{
+		"content": "$1,000."
+},
+	{
+		"content": "$5,000. "
+},
+	{
+		"content": "Pass the exam required by statute."
+},
+	{
+		"content": "Maintain a business or legal address in Pennsylvania."
+},
+	{
+		"content": "Complete a 24-hour pre-licensing course."
+},
+	{
+		"content": "Post a fidelity bond."
+},
+	{
+		"content": "An applicant unable to read and write English."
+},
+	{
+		"content": "An individual on probation."
+},
+	{
+		"content": "An individual who provides false or incomplete information on a license application."
+},
+	{
+		"content": "A stockbroker."
+},
+	{
+		"content": "Trade Practices Act of 1974."
+},
+	{
+		"content": "McCarren-Ferguson Act."
+},
+	{
+		"content": "Unfair Claims Settlement Act."
+},
+	{
+		"content": "The Fair Credit Reporting Act."
+},
+	{
+		"content": "Execute a written contract with the insurance company."
+},
+	{
+		"content": "Execute a written contract with the insurance department."
+},
+	{
+		"content": "Execute a written contract with an attorney."
+},
+	{
+		"content": "Execute a written contract with the consumer."
+},
+	{
+		"content": "Only if permitted in writing by the Insurance Commissioner."
+},
+	{
+		"content": "At any time if permitted by the insured."
+},
+	{
+		"content": "Only if each represented insurance company provides prior written consent."
+},
+	{
+		"content": "Never."
+},
+	{
+		"content": "Attempt to sell the agency."
+},
+	{
+		"content": "Process normal correspondence."
+},
+	{
+		"content": "Solicit new business."
+},
+	{
+		"content": "Receive commissions."
+},
+	{
+		"content": "Twisting."
+},
+	{
+		"content": "A good business practice."
+},
+	{
+		"content": "Rebating."
+},
+	{
+		"content": "Permitted under the Unfair Insurance Practices Act."
+},
+	{
+		"content": "May be appealed to Commonwealth Court."
+},
+	{
+		"content": "Is usually investigated by an insurance department employee."
+},
+	{
+		"content": "May involve a formal hearing in Harrisburg."
+},
+	{
+		"content": "Is generally handled by the local District Attorney."
+},
+	{
+		"content": "30 days."
+},
+	{
+		"content": "60 days."
+},
+	{
+		"content": "90 days."
+},
+	{
+		"content": "180 days."
+},
+	{
+		"content": "To ensure the public's interest is protected."
+},
+	{
+		"content": "To provide adequate rate levels and promote solvency."
+},
+	{
+		"content": "To ensure fair and equitable treatment of the public and companies."
+},
+	{
+		"content": "To ensure competitive rates."
+},
+	{
+		"content": "Publishing a false illustration."
+},
+	{
+		"content": "Discrimination based upon sound actuarial ustification."
+},
+	{
+		"content": "Deceptive advertising."
+},
+	{
+		"content": "Illegal inducement."
+},
+	{
+		"content": "An insurance consultant who shares commissions with a producer."
+},
+	{
+		"content": "A premium auditor who verifies a business's payroll for insurance purposes."
+},
+	{
+		"content": "A loss control representative who identifies hazards at the insured's business."
+},
+	{
+		"content": "A risk manager who supervises a maor corporation's insurance program."
+},
+	{
+		"content": "Twisting."
+},
+	{
+		"content": "Rebating."
+},
+	{
+		"content": "A legal inducement."
+},
+	{
+		"content": "An incentive."
+},
+	{
+		"content": "Unfair Insurance Practices Act of 1974."
+},
+	{
+		"content": "Privacy of Consumer Financial Information Regulations."
+},
+	{
+		"content": "Fair Credit Reporting Act."
+},
+	{
+		"content": "Claims Settlement Practices Act."
+},
+	{
+		"content": "Advises producers and insurers of fair and acceptable trade practices."
+},
+	{
+		"content": "Exclusively regulates the activities of insurers in the excess and surplus lines."
+},
+	{
+		"content": "Regulates trade practices by defining practices that constitute unfair methods of competition or deceptive practices."
+},
+	{
+		"content": "Only applies to life insurance activities."
+},
+	{
+		"content": "Refusing to pay claims."
+},
+	{
+		"content": "Failure to acknowledge written or oral communications."
+},
+	{
+		"content": "Dealing with the insured or claimant in good faith."
+},
+	{
+		"content": "Failure to deny or affirm coverage."
+},
+	{
+		"content": "The insured knows of the arrangement."
+},
+	{
+		"content": "There is a written agreement between the two producers."
+},
+	{
+		"content": "Both are licensed for the same powers."
+},
+	{
+		"content": "The insurance department knows of the arrangement."
+},
+	{
+		"content": "A competitive producer."
+},
+	{
+		"content": "An alien producer."
+},
+	{
+		"content": "A nonresident producer."
+},
+	{
+		"content": "A domestic producer."
+},
+	{
+		"content": "Disclosure."
+},
+	{
+		"content": "A legal inducement."
+},
+	{
+		"content": "Twisting."
+},
+	{
+		"content": "Rebating."
+},
+	{
+		"content": "Misrepresenting policy provisions."
+},
+	{
+		"content": "Failure to pay a claim not covered."
+},
+	{
+		"content": "Failure to promptly investigate claims."
+},
+	{
+		"content": "Failure to deny or affirm coverages or pay a claim."
+},
+	{
+		"content": "Producers may not co-mingle business monies with personal monies unless each insurance company provides written permission."
+},
+	{
+		"content": "Producers who make remittance of premiums collected in the same form as received, need not maintain a separate account."
+},
+	{
+		"content": "Producers who receive cash from insureds may deposit the money into his or her personal account and write a check to the insurance company."
+},
+	{
+		"content": "If a producer holds a policyholder's funds, they must be maintained in a separate account."
+},
+	{
+		"content": "Coverage is provided for certain property and casualty policies."
+},
+	{
+		"content": "Coverage is provided for workers compensation and surety losses."
+},
+	{
+		"content": "Coverage is provided to individuals insured with admitted carriers."
+},
+	{
+		"content": "Coverage is provided up to $300,000 per claim."
+},
+	{
+		"content": "Transacting business with an unauthorized producer."
+},
+	{
+		"content": "Advertising as a producer for an unauthorized insurance company."
+},
+	{
+		"content": "Placing business with an admitted insurance company."
+},
+	{
+		"content": "Soliciting for fictitious or dead insurance companies."
+},
+	{
+		"content": "Licensed producers have a continuing education requirement."
+},
+	{
+		"content": "Continuing education is waived for insurance producers who are attorneys at law."
+},
+	{
+		"content": "New producers must complete 24 credit hours per licensing period."
+},
+	{
+		"content": "Producers may complete approved Internet continuing education courses."
+},
+	{
+		"content": "Must complete 24 credit hours of continuing education every two years."
+},
+	{
+		"content": "Has no continuing education requirements if the producer is a CLU."
+},
+	{
+		"content": "Has no continuing education requirement if enrolled in college."
+},
+	{
+		"content": "Has no continuing education requirements."
+},
+	{
+		"content": "They may represent the insured."
+},
+	{
+		"content": "They may represent the insurer."
+},
+	{
+		"content": "They may represent themselves."
+},
+	{
+		"content": "They may represent the claimant."
+},
+	{
+		"content": "10 days."
+},
+	{
+		"content": "15 days."
+},
+	{
+		"content": "20 days."
+},
+	{
+		"content": "30 days."
+},
+	{
+		"content": "10 days."
+},
+	{
+		"content": "15 days."
+},
+	{
+		"content": "20 days."
+},
+	{
+		"content": "30 days."
+},
+	{
+		"content": "10 working days in all instances."
+},
+	{
+		"content": "10 working days unless payment is made within that time period."
+},
+	{
+		"content": "15 working days after receipt of a properly executed proof of loss from the insured."
+},
+	{
+		"content": "20 working days.   "
+},
+	{
+		"content": "10 days."
+},
+	{
+		"content": "15 days."
+},
+	{
+		"content": "20 days."
+},
+	{
+		"content": "30 days. "
+},
+	{
+		"content": "Collecting expiration data from clients."
+},
+	{
+		"content": "Assisting with the completion of applications."
+},
+	{
+		"content": "Counseling an applicant on a product."
+},
+	{
+		"content": "Discussing insurance in general if no recommendations are made with respect to rates.  "
+},
+	{
+		"content": "Confirming future dividends in a proposal."
+},
+	{
+		"content": "Listing the insurance companies the agency represents in a letter."
+},
+	{
+		"content": "Mailing an agency brochure to a prospective client."
+},
+	{
+		"content": "Inviting prospective clients to the grand opening of the producer's new office.   "
+},
+	{
+		"content": "60 days from the date of the exam."
+},
+	{
+		"content": "90 days from the date of the exam."
+},
+	{
+		"content": "180 days from the date of the exam."
+},
+	{
+		"content": "One year from the date of the exam.  "
+},
+	{
+		"content": "Advertising the opening of a producer's new office."
+},
+	{
+		"content": "Advertising that dividends will be guaranteed."
+},
+	{
+		"content": "Advertising the names of the carriers a producer represents."
+},
+	{
+		"content": "Advertising the agency staff in a brochure. "
+},
+	{
+		"content": "They must complete the pre-licensing education requirements."
+},
+	{
+		"content": "They must pass the state exam or be granted a waiver."
+},
+	{
+		"content": "They must agree to adhere to Pennsylvania Insurance laws."
+},
+	{
+		"content": "They must be appointed by an insurance company.  "
+},
+	{
+		"content": "Assets."
+},
+	{
+		"content": "Reserves."
+},
+	{
+		"content": "Surplus."
+},
+	{
+		"content": "Liabilities.  "
+},
+	{
+		"content": "None."
+},
+	{
+		"content": "12."
+},
+	{
+		"content": "24."
+},
+	{
+		"content": "Unlimited.      "
+},
+	{
+		"content": "Individuals convicted of insurance fraud are subect to criminal penalties."
+},
+	{
+		"content": "Individuals convicted of insurance fraud are subect to civil penalties."
+},
+	{
+		"content": "Individuals convicted of insurance fraud are subect to community penalties."
+},
+	{
+		"content": "Individuals convicted of insurance fraud are subect to restitution. "
+},
+	{
+		"content": "Knowingly receiving proceeds from insurance fraud."
+},
+	{
+		"content": "Filing an application containing false, non-material information."
+},
+	{
+		"content": "Compensation by a lawyer to others for medical information on individuals."
+},
+	{
+		"content": "Compensation by a health care provider to others to refer patients. "
+},
+	{
+		"content": "Primary business."
+},
+	{
+		"content": "Excess business."
+},
+	{
+		"content": "Personal business."
+},
+	{
+		"content": "Commercial business."
+},
+	{
+		"content": "Commissions from an insurer."
+},
+	{
+		"content": "A referral fee from a producer or insurer."
+},
+	{
+		"content": "A percent of the policy's commission."
+},
+	{
+		"content": "Free insurance."
+},
+	{
+		"content": "A broker license."
+},
+	{
+		"content": "An agent license."
+},
+	{
+		"content": "A consultant license."
+},
+	{
+		"content": "A producer license."
+},
+	{
+		"content": "Voluntary termination of the producer's license."
+},
+	{
+		"content": "Involuntary termination of the producer's license."
+},
+	{
+		"content": "Temporary termination of the producer's license."
+},
+	{
+		"content": "Permanent termination of the producer's license."
+},
+	{
+		"content": "Acts as a public aduster."
+},
+	{
+		"content": "Generally has specialized expertise."
+},
+	{
+		"content": "Acts as a solicitor for a producer."
+},
+	{
+		"content": "Conducts fee-only financial planning."
+},
+	{
+		"content": "Rebating."
+},
+	{
+		"content": "Twisting."
+},
+	{
+		"content": "Defamation."
+},
+	{
+		"content": "Boycott."
+},
+	{
+		"content": "A prior approval law."
+},
+	{
+		"content": "A file-and-use-law."
+},
+	{
+		"content": "A use-and-file law."
+},
+	{
+		"content": "An open competition law."
+},
+	{
+		"content": "Change of address."
+},
+	{
+		"content": "Change of name."
+},
+	{
+		"content": "Change of agency�s ownership. "
+},
+	{
+		"content": "Change in ob title."
+},
+	{
+		"content": "5 years"
+},
+	{
+		"content": "10 years"
+},
+	{
+		"content": "15 years"
+},
+	{
+		"content": "20 years"
+},
+	{
+		"content": "5 years"
+},
+	{
+		"content": "10 years"
+},
+	{
+		"content": "15 years"
+},
+	{
+		"content": "20 years"
+},
+	{
+		"content": "At least every year."
+},
+	{
+		"content": "At least every two years."
+},
+	{
+		"content": "At least every three years."
+},
+	{
+		"content": "At least every five years."
+},
+	{
+		"content": "Will result in their license being voluntarily terminated on the license renewal date."
+},
+	{
+		"content": "Will result in their license being involuntarily terminated on the license renewal date."
+},
+	{
+		"content": "Has 30 days from the license renewal date to comply with the CE requirement with no lapse in licensure."
+},
+	{
+		"content": "Has 60 days from the license renewal date to comply with the CE requirement with no lapse in licensure."
+},
+	{
+		"content": "Advised by an attorney of a pending civil lawsuit."
+},
+	{
+		"content": "Sued by an insured for an alleged failure to place proper coverage."
+},
+	{
+		"content": "Charged with a misdemeanor involving theft of property or money."
+},
+	{
+		"content": "Convicted of misdemeanor involving theft of property or money."
+},
+	{
+		"content": "Sued by an insured for an alleged failure to place proper coverage."
+},
+	{
+		"content": "Advised by an attorney of a pending civil lawsuit. "
+},
+	{
+		"content": "Convicted of a felony."
+},
+	{
+		"content": "Charged with a felony."
+},
+	{
+		"content": "It must pass state required minimum financial standards."
+},
+	{
+		"content": "It must certify that its producers are qualified in the business of insurance."
+},
+	{
+		"content": "It must utilize policy forms and rates prior to department approval."
+},
+	{
+		"content": "It must agree to abide by statutory regulation."
+},
+	{
+		"content": "Certificate of Insurance."
+},
+	{
+		"content": "Certificate of Authority."
+},
+	{
+		"content": "Certificate of Qualification."
+},
+	{
+		"content": "Certificate of Solvency."
+},
+	{
+		"content": "Pennsylvania�s Privacy of Consumer Financial Information Regulation."
+}
+	{
+		"content": "Unfair Insurance Practices Act."
+}
+	{
+		"content": "Fair Credit Reporting Act."
+}
+	{
+		"content": "Do-Not-Call Rules."
+}
+]
+}

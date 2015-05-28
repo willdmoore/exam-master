@@ -5,9 +5,43 @@ angular.module('core').controller('PracticeExaminationController', ['$scope', '$
 		// Practice examination controller logic
 		// ...
 
+    var CHAPTER_1 = 0;
+    var CHAPTER_2 = 1;
+    var CHAPTER_3 = 2;
+    var CHAPTER_4 = 3;
+    var CHAPTER_5 = 4;
+    var CHAPTER_6 = 5;
+    var CHAPTER_7 = 6;
+    var CHAPTER_8 = 7;
+    var CHAPTER_9 = 8;
+    var CHAPTER_10 = 9;
+    var CHAPTERS = [
+      CHAPTER_1,
+      CHAPTER_2,
+      CHAPTER_3,
+      CHAPTER_4,
+      CHAPTER_5,
+      CHAPTER_6,
+      CHAPTER_7,
+      CHAPTER_8,
+      CHAPTER_9,
+      CHAPTER_10,      
+    ];
+    var MODE_PRACTICE = 0;
+    var MODE_TEST = 1;
+    var MODES = [MODE_PRACTICE, MODE_TEST];
+
     $scope.index = 0;
     $scope.correct = 0;
     $scope.answered = 0;
+    $scope.chapter = -1;
+    $scope.mode = MODES[MODE_PRACTICE];
+
+    $scope.displayChapterExamination = function(chapter, mode) {
+      $scope.mode = MODES[mode];
+      $scope.chapter = CHAPTERS[chapter];
+      
+    };
 
     $scope.checkAnswer = function(question_id, answer_id) {
       var question = $scope.questions.filter(function(obj) {

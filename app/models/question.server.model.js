@@ -10,29 +10,34 @@ var mongoose = require('mongoose'),
  * Question Schema
  */
 var QuestionSchema = new Schema({
-	name: {
-		type: String,
-		default: '',
-		required: 'Please fill Question name',
-		trim: true
-	},
 	created: {
 		type: Date,
 		default: Date.now
 	},
-	user: {
-		type: Schema.ObjectId,
-		ref: 'User'
-	},
-	answer: {
-		type:  Schema.ObjectId,
-		ref: 'Answer'
-	},
+	responses: [
+		{
+			content: String
+		}
+	],
+	answer: Number,
 	content: {
+		type: String,
+		default: '',
+		trim: true
+	},
+	chapter: String,
+	explanation: {
 		type: String,
 		default: '',
 		trim: true
 	}
 });
+
+/**
+ * Questions associated with a particular Chapter
+ */
+QuestionSchema.statics.findByChapter = function(chapterId, callback) {
+	return this.find({ chapter: chapterId }, callback);
+};
 
 mongoose.model('Question', QuestionSchema);

@@ -1,0 +1,504 @@
+Risk may be defined as:
+The exposure to or uncertainty of loss.
+The perils listed in the policy.
+The premium paid by the insured.
+The amount paid at the time of loss.
+1
+2-1
+. Risk may be defined as the exposure to or uncertainty of loss.
+Risk exposures may be classified as:
+No risk and some risk.
+Pure risk and speculative risk.
+Named perils and listed perils.
+All risk and open risk.
+2
+2-1
+. Risk exposures may be classified as either pure risk or speculative risk. Insurers attempt to insure pure risk exposures and avoid speculative risk exposures. 
+Which of the following is the type of risk exposure that insurance companies seek to insure?
+No risk exposures.
+Speculative risk exposures.
+All risk exposures.
+Pure risk exposures.
+4
+2-1
+.  Insurance companies seek to insure pure risk exposures (loss or no loss). Insurers specifically attempt to avoid speculative risk exposures (financial gain). 
+Insurance may be described as:
+The retention of risk through financing.
+The elimination of risk by control techniques.
+The spreading of risk by collecting premiums to finance future losses.
+The control of risk through loss prevention.
+3
+2-2
+.  Insurance may be described as the spreading of risk by collecting premiums to finance future losses. Retention of risk is a deductible; the elimination of risk by control techniques and the control of risk are risk management activities.
+Which of the following is NOT a control technique used to manage risk?
+Avoidance of risk.
+Retention of risk.
+Reduction of risk.
+Purchase of insurance.
+4
+2-1 & 2-2
+. The purchase of insurance is NOT a control technique but a financing technique used to manage risk. Avoidance of risk, retention of risk, and reduction of risk are all control techniques used to manage risks.
+All of the following are true of insurable interest EXCEPT:
+In property and casualty insurance, it is required to exist at the time of loss.
+A mortgage company has an insurable interest in mortgaged property.
+It is the interest one has in property that may cause the possibility of financial loss.
+It cannot exist in business relationships. 
+4
+2-3
+. Insurable interest DOES exist in business relationships. Answers 1, 2 & 3 are all true of insurable interest. 
+The Principle of Indemnity:
+Indemnifies a claimant.
+Reduces lawsuits.
+Reimburses an insured to the extent of his or her loss.
+Promotes moral hazard.
+3
+2-3
+. The Principle of Indemnity reimburses an insured to the extent of his or her loss.
+An insurance company domiciled in the state of Pennsylvania is considered:
+Foreign.
+Alien.
+Domestic.
+Surplus.
+3
+2-6
+.  An insurance company domiciled in the state of Pennsylvania is considered a domestic company (Erie Insurance). Foreign companies (State Farm, Prudential) are domiciled outside of Pennsylvania and within the United States. Alien companies (Nippon Life) are domiciled outside of the United States. Surplus is an insurance accounting term and has no relationship to the question.
+All of the following are characteristics of a licensed or admitted insurance company EXCEPT:
+It must pass state required minimum financial standards.
+It must agree to abide by statutory regulation.
+It accepts business for placement by surplus lines agents.
+It appoints producers to sell its products.
+3
+2-6
+. Licensed or admitted insurance companies do NOT accept surplus and excess lines business. Licensed or admitted insurance companies must pass state required minimum financial standards, agree to abide by statutory regulation, and produce business through local branch offices and agents. 
+Which of the following does not assemble and review detailed information on the financial condition of insurance companies?
+The Insurance Department.
+The A.M. Best Company.
+The National Association of Insurance Commissioners (NAIC).
+The Independent Insurance Agents and Brokers of America.
+4
+2-6 & 2-7
+. The Independent Insurance Agents and Brokers of America do NOT assemble and review detailed information on the financial condition of insurance companies. This activity is conducted by the insurance department, A.M. Best Company and the National Association of Insurance Commissioners.
+The principle of insurance that restores one to approximately the same condition that they enjoyed prior to their loss is:
+Valued contracts.
+Subrogation.
+Retention.
+Indemnification.
+4
+2-3
+. The principle of insurance that restores one to approximately the same condition that they enjoyed prior to their loss is indemnification. A valued contract (life insurance policy) pays the policy limits if a loss occurs. Subrogation is the right to seek repayment from a third party that has caused an insurer to pay a claim. Retention is when an insured pays losses out of his or her own pocket rather than purchasing insurance.
+An association of subscribers which insures one another and is managed by an attorney-in-fact is called a:
+Lloyd’s association.
+Mutual company.
+Fraternal organization.
+Reciprocal. 
+4
+2-5
+.  An association of subscribers that insures one another and is managed by an attorney-in-fact is called a reciprocal (Erie Insurance Exchange, Farmers Insurance Exchange). A Lloyd’s association shares in the making of an insurance contract (Lloyd’s of London). A Fraternal organization (Greater Beneficial Union of Pittsburgh) is a benevolent association that provides organized welfare plans (life insurance) for its members.
+All of the following are characteristics of reinsurance EXCEPT:
+The original insurer is the ceding company.
+Reinsurance is a contractual process used to spread loss exposures.
+Facultative and Treaty are two common reinsurance arrangements.
+Reinsurance is used primarily with liability exposures. 
+4
+2-4
+. Reinsurance is used to cover not only liability exposures, but also property, life and health.  Answers 1, 2 & 3 are all characteristics of reinsurance. 
+A reinsurance agreement may be arranged in which of the following forms?
+Retrocession and retrocessionaire basis.
+Treaty and facultative basis.
+Ceding and assuming basis.
+Retention and excess basis.
+2
+2-4
+.  A reinsurance agreement may be arranged in a treaty or facultative basis.  Answers 1, 3 & 4 are all features of reinsurance.
+What reinsurance agreement automatically accepts exposures from the original insurer?
+Ceding.
+Retrocessionaire.
+Treaty.
+Facultative.
+3
+2-4
+.  A treaty reinsurance agreement automatically accepts (reinsures) exposures from the original insurer. Ceding refers to the original insurer. Retrocessionaire is the organization that reinsures a reinsurance company. Facultative refers to an individual reinsurance contract.
+All of the following are distributors of insurance EXCEPT:
+The Exclusive Agency System.
+The Independent Agency System.
+The Employer Administered System.
+The Direct Writer System.
+3
+2-8
+. The employer administered system is NOT a distributor of insurance. The exclusive agency system, independent agency system and direct writer systems are all distribution systems. 
+An insurance company domiciled outside the United States would be considered:
+Alien.
+Excess.
+Domestic.
+Foreign.
+1
+2-6
+.  An insurance company domiciled outside the United States is an alien company. Remember that insurance is state regulated. An insurer domiciled in Pennsylvania is domestic. An insurer domiciled outside of Pennsylvania (Ohio, New York, etc.) and within the United States is foreign. Answer 2 has no relationship to the question. 
+All of the following are characteristics of the Law of Agency EXCEPT:
+It is the legal relationship that exists when one acts for another.
+It is a fiduciary relationship consisting of a principal and an agent.
+When agency is legally formed, the agent binds the principal to their actions.
+The knowledge of the agent is not imputed to the principal. 
+4
+2-10
+.  Under the law of agency, the knowledge of the agent is imputed to the principal (the insurer). So if an agent fails to disclose a fact about a risk, the insurer may not use lack of knowledge to deny a claim. Answers 1, 2 & 3 are all characteristics of the Law of Agency
+All of the following are types of authority that a producer may be granted or may assume EXCEPT:
+Express.
+Implied.
+Apparent.
+Waiver.
+4
+2-10
+. A waiver is NOT a type of authority that a producer may be granted. A waiver is the voluntary relinquishment of a known right and has no relationship to the question. Producers may be granted three types of authority. Express authority is written authority by insurer. This is found in an agent's contract or in underwriting directives. Implied authority includes the practice of taking applications, collecting premiums, etc. Apparent authority is the public's perception or belief that the agent is authorized by the insurer. 
+The voluntary relinquishment of a known right is:
+Estoppel.
+Waiver.
+Subrogation.
+Indemnity.
+2
+2-4
+. The voluntary relinquishment of a known right is waiver. Estoppel has the same end result as waiver (coverage applies), but estoppel is involuntary. Subrogation is the right to seek reimbursement from a negligent third party. Indemnity is the right to make an insured whole after a loss. 
+The type of authority that is specifically defined in a producer's agreement is:
+Implied.
+Express.
+Apparent.
+Aleatory.
+2
+2-10
+. The type of authority that is specifically defined in a producer's agreement is express authority. This is found in the agent's contract or in underwriting directives. Implied authority includes the practice of taking applications, collecting premiums, etc. Apparent authority is the public's perception or belief that the agent is authorized by the insurer. The term aleatory has no relationship to the question.
+All of the following are reflective of fiduciary or professional responsibilities of a producer EXCEPT:
+Performs in an honest and good faith manner.
+Explains coverages that are requrested by the insured.
+May perform risk management services that reduce the insured's premium costs.
+Negotiates a commission split with the insured. 
+4
+2-11
+.  A producer is prohibited from splitting the commission with an insured. Producers are required to act in a professional manner. This means that they must perform in an honest and good faith manner, recommend coverages that are proper and within the needs of the insured, and perform risk management services that reduce the insured's premium costs. 
+All of the following are examples of potential areas of concern to producers. Which one of the following would least likely create an errors and omissions exposure?
+Failure to process an application in a timely manner.
+Failure to upgrade coverage to reflect inflation or other known factors.
+Failure to provide coverage for an exposure that is concealed by the insured.
+Failure to recommend proper coverage.
+3
+2-12
+. Failing to provide coverage for an exposure that is concealed by the insured would least likely create an errors and omissions exposure. A producer cannot be responsible for failing to recommend coverage on an exposure that is concealed by an insured. However, a producer can be held responsible for failing to process applications in a timely manner, failing to upgrade coverage to reflect known factors and failing to recommend proper coverages.
+All of the following are examples of the underwriting process EXCEPT:
+Completing and reviewing the application for insurance.
+Classifying and rating of the risk.
+Paying the insured a fair settlement after a loss occurs.
+Monitoring of business. 
+3
+2-12
+. Paying the insured a fair settlement after a loss is NOT an example of the underwriting process; it is a claims function. The underwriting process includes completing and reviewing the application for insurance, the classifying and rating of a risk, and monitoring the business written.
+Insurance companies attempt to minimize and if possible eliminate the process of adverse selection. Which of the following describes adverse selection?
+Applicants for insurance who have a greater bias to an exposure than a random sampling of the population.
+A process that enables insurance companies to predict losses.
+The process of insuring risk exposures with a reinsurance company.
+Insuring only excellent risks. 
+1
+2-3 & 2-12
+.  Adverse selection is when applicants for insurance have a greater bias to an exposure than a random sampling of the population. 
+All of the following are essential elements of a contract EXCEPT:
+Consideration.
+Legal purpose.
+Incompetent parties.
+Agreement (offer and acceptance).
+3
+2-12
+.  Incompetent parties are NOT an essential element of a contract. Parties to a contract must be competent. Essential elements of a contract include consideration, legal purpose and agreement. 
+What term describes the statements made by an individual at application?
+Warranty.
+Concealment.
+Misrepresentations.
+Representations.
+4
+2-14
+.  Statements made by an individual at application are representations. Representations are oral or written statements made by the applicant that are believed to be true. A warranty makes guarantees. A concealment is misrepresentation by silence. A misrepresentation is an overt representation that is false. 
+An insurance contract feature that permits all ambiguous areas to be construed in favor of the insured is:
+Aleatory.
+Adhesion.
+Utmost Good faith.
+Fraud.
+2
+2-13
+. The insurance contract feature that permits all ambiguous areas to be construed in favor of the insured is adhesion. Aleatory means the contract is of an unequal value and based upon a future occurrence. Utmost good faith means that all parties should be honest and sincere in the application and claims process. Fraud is deliberate deceit to take another's property.
+All of the following are characteristics of insurance contracts EXCEPT:
+Aleatory.
+Personal contract.
+Adhesion.
+Bilateral contract.
+4
+2-13
+.  Insurance contracts are NOT bilateral contracts. They are unilateral contracts. A unilateral insurance contract is one in which an act (payment of premium) is exchanged for a promise (payment in the event of loss). Aleatory, personal contracts and adhesion are all characteristics of an insurance contract. 
+The legal right of an insurance company to seek reimbursement from a negligent third party is:
+Parol Evidence Rule.
+Warranty.
+Subrogation.
+Adhesion.
+3
+2-13
+.  Subrogation is the legal right of an insurance company to seek reimbursement from a negligent third party who caused the insurer to pay a claim. 
+All of the following are examples of types of warranty EXCEPT:
+Affirmative warranty.
+Continuing or promissory warranty.
+Implied warranty.
+Guaranteed warranty. 
+4
+2-14
+. Guaranteed warranty is NOT a type of warranty and has no relationship to the question. Affirmative, continuing and implied are all types of warranties. 
+How will a court of law interpret an insurance contract that contains policy language that is ambiguous?
+Find in favor of both the insured and company by apportioning each party's fault at 50% of the total verdict amount.
+Find in favor of the insured since the policy is a contract of adhesion.
+Find in favor of the insured since the insured had no duty to read the policy.
+Find in favor of the company since the insured should have read the policy. 
+2
+2-13
+.  Courts interpret insurance contracts with ambiguous policy language in the insured's favor since the policy is a contract of adhesion. 
+Under an insurance contract, both the insured and insurer give up something of value that is called:
+Consideration.
+Estoppel.
+Subrogation.
+Reasonable expectations.
+1
+2-12
+.  Under an insurance contract, both the insured and insurer give up something of value called consideration. The insured's consideration is the premium payment. The insurer's consideration is the promise to pay a claim. Estoppel is a legal argument made in a lawsuit. Subrogation is the legal right of an insurer to seek reimbursement from the negligent party that caused the insurer to pay a claim. Reasonable expectations refer to the expectations that an insured expects under an insurance policy.
+All of the following are true of binding authority EXCEPT:
+An insurance binder has the same effect as a policy.
+Brokers have greater binding authority than agents.
+Properly licensed and appointed agents generally have binding authority.
+An insurance binder puts coverage in effect prior to the actual policy's issuance. 
+2
+2-9
+.  Brokers do NOT have greater binding authority than agents. Brokers represent the client and have no binding authority unless authorized by the insurer as an agent. Answers 1, 3 & 4 are all true of binding authority.
+A Direct Writer insurance company sells its policies through:
+Insurance brokers.
+Independent insurance agents.
+Exclusive insurance agents.
+Employees who are licensed as agents.
+4
+2-8
+.  A Direct Writer insurance company sells its policies through employees who are licensed as agents (producers). Answers 1, 2 & 3 are types of agents that are independent contractors. Specifically, insurance brokers represent themselves and their clients. Independent insurance agents represent various insurance companies. Exclusive insurance agents represent only one insurance company.
+All of the following are true of insurance EXCEPT:
+It is a method of financing one's loss exposures.
+It is a method of spreading risk from one to many.
+Insurance is the only method utilized to manage risk.
+It involves the pooling of premiums to pay future losses.
+3
+2-2
+.  Insurance is NOT the only method utilized to manage risk. Risk can also be managed by other methods such as avoidance, retention, sharing, reduction and transfer of risk. Answers 1, 2 & 4 are all true statements of insurance. 
+Apparent authority is the type of authority that:
+Is specific.
+Is an extension of an agent's standard duties.
+The public perceives the agent to have based upon the agent's actions.
+Is based upon indemnification.
+3
+2-10
+.  Apparent authority is the type of authority that the public perceives the agent to have based upon the agent's actions. For example, if an agent consistently accepts premiums after the due date, it may give the insured the belief that the practice is permitted and that they are covered. 
+The principle of making one whole after a loss by paying the actual amount of loss is:
+Indemnity.
+Adhesion.
+Estoppel.
+Subrogation.
+1
+2-3
+. The principle of making one whole after a loss by paying the actual amount of loss is indemnity. Adhesion refers to a characteristic of an insurance policy (ambiguous provisions are found in the insured's favor). Estoppel is a legal argument. Subrogation is the legal process an insurer initiates against a negligent third party that caused the insurer to pay the loss.
+An insurance binder is:
+A temporary insurance contract.
+Issued for 90 days.
+Typically issued by insurance companies.
+Typically issued at expiration.
+1
+2-9
+. An insurance binder is a temporary insurance contract. Binders are issued for up to 30 days. 
+A social organization which sells insurance is a:
+Stock company.
+Reciprocal company.
+Fraternal company.
+Mutual company. 
+3
+2-5
+.  A social organization that sells insurance is referred to as a Fraternal company.
+Exposure to loss can be eliminated by risk:
+Avoidance.
+Retention.
+Reduction.
+Coinsurance.
+1
+2-2
+.  Exposure to loss can only be eliminated by risk avoidance (not doing something). Retention (taking a higher deductible), reduction (installing a sprinkler system), and coinsurance (sharing in a loss) are all reduction techniques.
+A warranty:
+Is never a part of an insurance contract.
+May void coverage if untrue.
+Is available by endorsement.
+Is subject to insurance department approval.
+2
+2-14
+.  A warranty may void coverage if untrue. For example, a few types of policies (ocean marine, aviation) require strict compliance for coverage to apply. 
+The purchase of insurance to protect an asset is an example of:
+A risk control technique.
+A risk retention technique.
+A risk financing technique.
+A risk avoidance technique. 
+3
+2-1 & 2-2
+. The purchase of insurance to protect an asset is an example of a risk financing technique. 
+An exclusive agent is:
+An employee of one company.
+An independent contractor who represents one exclusive company.
+The exclusive owner of his expirations.
+An independent contractor who represents more than one company.
+2
+2-9
+.  An exclusive agent is an independent contractor who represents one exclusive company.
+An independent insurance agent is:
+A captive agent with independent markets.
+An agent employee of any major stock company.
+An independent contractor with ownership of his expirations.
+An exclusive contractor with ownership of his expirations.
+3
+2-9
+.  An independent insurance agent is an independent contractor with ownership of his expirations. 
+An insurance policy that contains unclear language will be:
+Interpreted against the party that wrote the policy.
+Interpreted against the insured that accepted the policy.
+Rewritten by the insurance department.
+Interpreted for the party that wrote the policy. 
+1
+2-13
+.  An insurance policy that contains unclear language will be interpreted against the party that wrote the policy.
+The type of agent who may represent more than one insurance company and owns his expirations is an example of a(n):
+Exclusive agent.
+Independent agent.
+Captive agent.
+Company agent. 
+2
+2-8
+.  The type of agent who may represent more than one insurance company and owns his expirations (policy renewals) is an example of an independent agent. The other answers are different types of agents that represent only one insurer and do not own their expirations (policy renewals).
+Which of the following would be considered a morale hazard?
+Storing explosives in a home.
+Defective electrical wiring.
+Carelessness.
+Criminal activity. 
+3
+2-1
+.  A morale hazard would be carelessness. Storing explosives in a home and defective electrical wiring are examples of physical hazards and criminal activity is an example of a moral hazard.
+Which of the following would be considered a moral hazard?
+Carelessness.
+Defective electrical wiring.
+Criminal activity.
+Storing explosives in a home. 
+3
+2-1
+.  A moral hazard would be criminal activity. It is the type of hazard that is against public policy. Storing explosives in a home and defective electrical wiring are examples of physical hazards. Carelessness is an example of a morale hazard.
+In a contract negotiation if a counteroffer is made, the initial offer is:
+Void.
+Validated.
+Accepted.
+Binding.
+1
+2-12
+.  A counteroffer voids the initial offer. 
+When an agent performs within the scope of his authority, the acts of the agent:
+Binds the insured.
+Binds the principal.
+Binds no one.
+Binds the insurance department.
+2
+2-10
+.  The acts of an agent performing within the scope of his authority bind the principal (the insurer and/or his agency). 
+The legal doctrine that states that an insured is entitled to the coverage that he may expect is:
+Estoppel.
+Subrogation.
+Adhesion.
+Reasonable expectations.
+4
+2-13
+.  Reasonable expectations is the legal doctrine that states that an insured is entitled to the coverage that he may expect. Estoppel is a legal argument. Subrogation is the legal process an insurer initiates against a negligent third party to collect monies that were paid in the claim.  Adhesion refers to a characteristic of an insurance policy (ambiguous provisions are found in the insured's favor).
+The uncertainty of loss is called:
+Hazard.
+Risk.
+Peril.
+Avoidance.
+2
+2-1
+. The uncertainty of loss is risk. A hazard is a condition that increases the possibility of loss. Peril is a cause of loss (fire, lightning, etc.). Avoidance is a risk management control technique.
+What type of contract does an original insurer purchase to protect itself from higher than expected losses in the future?
+Self-Insured contract.
+Reinsurance contract.
+Personal contract.
+Aleatory contract.
+2
+2-4
+. The type of contract that an original insurer purchases to protect itself from higher than expected losses in the future is a reinsurance contract. 
+All of the following may void a contract of insurance EXCEPT:
+One party is under duress.
+One party lacks legal capacity.
+One party is retired.
+The contract involves illegal property.
+3
+2-12
+.  A party being retired would NOT void a contract of insurance. A contract of insurance may be voided if a party is under duress, lacks legal capacity or if the contract involves illegal property. 
+If an insurer discovers a material misrepresentation in a policy's application:
+Coverage is immediately cancelled.
+Coverage terminates at renewal.
+Coverage is terminated ab initio.
+Coverage is voidable at the insurer's option.
+4
+2-14
+.  If an insurer discovers a material misrepresentation in a policy's application coverage is voidable at the insurer's option. 
+If an insurance company adjuster leads an insured to believe a claim is covered during the claims process and it is later determined that the claim is not covered:
+The insurer will be able to deny coverage.
+The insurer may be estopped from denying coverage.
+The insurer must pay the claim.
+The insurer may pay the claim.
+2
+2-14
+.  If an insurance company adjuster leads an insured to believe a claim is covered during the claims process and it is later determined that the claim is not covered the insurer may be estopped from denying coverage. 
+Insurance may be placed with a nonadmitted insurer if the:  
+Individual placing the business is a risk manager. 
+Individual placing the business is an adjuster.                
+Individual placing the business is a consultant.            
+Individual placing the business is a producer.  
+4
+2-6
+.  Insurance may be placed with a nonadmitted insurer if the individual placing the business is a producer. A risk manager is employed by a business to advise the proper types of coverages to be in effect. An adjuster adjusts losses. And a consultant advises a client on the types of insurance the individual or business should purchase.
+A Surplus Lines agent is specifically authorized to place business with: 
+Nonadmitted insurance companies.                                    
+Domestic insurance companies.                                      
+Alien insurance companies.                    
+Admitted insurance companies.  
+1
+2-6 
+.  A Surplus Lines agent is specifically authorized to place business with nonadmitted insurance companies.
+Which of the following actions by an individual would most likely be interpreted as representing an insurance company?
+An individual asking for money to pay an insurance policy.
+An individual using an insurance company’s stationary to solicit insurance.
+An individual standing in front of an insurance agent’s office.
+An individual applying for a position at an insurance company.
+2
+2-10
+.  An individual using an insurance company’s stationary to solicit insurance would most likely be considered an agent of the insurance company under the legal doctrines of apparent authority and agency. For example, if an insurance company provides business cards and stationary to an individual prior to his or her actual appointment as a licensed agent and that agent uses the business cards and stationary in soliciting insurance, our legal system would protect the proposed insured if a claim occurred. In other words, the law makes an insurance company responsible for the unauthorized acts of individuals and protects the public. 
+In addition to insurance, risk may be managed by all of the following EXCEPT:
+Avoidance of risk.
+Retention of risk.
+Reduction of risk.
+Acquisition of risk.
+4
+2-2
+.  Acquisition of risk is NOT a method to manage risk. The management of risk may be financed through the purchase of insurance or controlled through the following other methods to manage risk: Avoidance of Risk by eliminating the exposure to loss; Retention of Risk by assuming exposure to loss by selecting higher deductibles or by a self-insurance program; Sharing of Risk by assuming a coinsurer position in property policies; Reduction of Risk by reducing the severity of loss; and Transfer of Risk by contract. 
+To promote predictability in the rate making process, insurers:
+Seek to eliminate marginal risks.
+Seek to insure small numbers of similar risks.
+Seek to insure larger numbers of similar risks.
+Seek to eliminate preferred risks.
+3
+2-3
+.  To promote predictability in the rate making process, insurers seek to insure larger numbers of similar risks. The principle of the Law of Large Numbers states that the larger the number of occurrences exposed to a similar type of exposure, the more predictable future losses become.
+A large business that chooses to retain its losses is an example of a:
+Stock Company.
+Reciprocal.
+Self-insurer.
+Risk Retention Group.
+3
+2-5
+.  A large business that chooses to retain its losses is an example of a Self-insurer. Self-insurers choose to adjust claims and pay them directly rather than purchasing insurance. Self-insurers commonly purchase an excess policy to pay claims in the event losses exceed a predetermined loss threshold. 

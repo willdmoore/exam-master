@@ -20,10 +20,6 @@ var ResponseSchema = new Schema({
 		type: Date,
 		default: Date.now
 	},
-	user: {
-		type: Schema.ObjectId,
-		ref: 'User'
-	},
 	question: {
 		type: Schema.ObjectId,
 		ref: 'Question'

@@ -105,3 +105,19 @@ exports.hasAuthorization = function(req, res, next) {
 	}
 	next();
 };
+
+/**
+ * List of Questions by chapter
+ */
+exports.questionsByChapter = function(req, res, chapterId) {
+	Question.findByChapter(chapterId).populate('user', 'displayName').exec(function(err, questions) {
+		if (err)
+		{
+			return res.status(400).send({ message: errorHandler.getErrorMessage(err) });
+		}
+		else
+		{
+			res.jsonp(questions);
+		}
+	});
+};
