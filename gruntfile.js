@@ -215,44 +215,44 @@ module.exports = function(grunt) {
           {
             // this is the question content...
             json += '\t{\n';
-            json += '\t\t"question": "' + line.replace(/[\n\r\j]/g, "") + '",\n';
+            json += '\t\t\"question\": \"' + line.replace(/[\n\r\j]/g, '') + '\",\n';
           }
           else if ((index + 8) % 8 === 1)
           {
             // this is first response...
-						json += '\t\t"responses": [\n';
-            json += '\t\t\t{"response": "' + line.replace(/[\n\r\j]/g, "") + '"},\n';
+						json += '\t\t\"responses\": [\n';
+            json += '\t\t\t{\"response\": \"' + line.replace(/[\n\r\j]/g, '') + '\"},\n';
           }
           else if ((index + 8) % 8 === 2)
           {
             // this is the second response...
-						json += '\t\t\t{"response": "' + line.replace(/[\n\r\j]/g, "") + '"},\n';
+						json += '\t\t\t{\"response\": \"' + line.replace(/[\n\r\j]/g, '') + '\"},\n';
           }
           else if ((index + 8) % 8 === 3)
           {
             // this is the third response...
-						json += '\t\t\t{"response": "' + line.replace(/[\n\r\j]/g, "") + '"},\n';
+						json += '\t\t\t{\"response\": \"' + line.replace(/[\n\r\j]/g, '') + '\"},\n';
           }
           else if ((index + 8) % 8 === 4)
           {
             // this is the fourth response...
-						json += '\t\t\t{"response": "' + line.replace(/[\n\r\j]/g, "") + '"}\n';
+						json += '\t\t\t{\"response": \"' + line.replace(/[\n\r\j]/g, '') + '\"}\n';
 						json += '\t\t],\n';
           }
           else if ((index + 8) % 8 === 5)
           {
             // this is the index value of the responses indicating the actual answer...
-            json += '\t\t"answer": "' + line.replace(/[\n\r\j]/g, "") + '",\n';
+            json += '\t\t\"answer\": \"' + line.replace(/[\n\r\j]/g, '') + '\",\n';
           }
           else if ((index + 8) % 8 === 6)
           {
             // this is chapter reference...
-            json += '\t\t"chapter": "' + line.replace(/[\n\r\j]/g, "") + '",\n';
+            json += '\t\t\"chapter\": \"' + line.replace(/[\n\r\j]/g, '') + '\",\n';
           }
           else if ((index + 8) % 8 === 7)
           {
             // this is the follow up information...
-            json += '\t\t"explanation":  "' + line.replace(/[\n\r\j]/g, "") + '"\n\t}';
+            json += '\t\t\"explanation\":  \"' + line.replace(/[\n\r\j]/g, '') + '\"\n\t}';
 						if (index < (lines.length - 2)) {
 							json += ',\n';
 						}
@@ -298,7 +298,7 @@ module.exports = function(grunt) {
 				json += '\t\t\"explanation\": ' + '\"' + entry.explanation + '\"\n\t}';
 
 				return json;
-			};
+			}
 
 			if (json_path !== '' && json_path !== null) {
 				var questions_json = '{\n\t\"questions\": [\n';
@@ -309,7 +309,7 @@ module.exports = function(grunt) {
 						questions_json += ',\n';
 					});
 				});
-				questions_json += '\t]\n}'
+				questions_json += '\t]\n}';
 
 				if (grunt.file.exists('data/db/collections') === false) {
 					grunt.file.mkdir('data/db/collections');
