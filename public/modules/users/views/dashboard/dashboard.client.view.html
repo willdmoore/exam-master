@@ -1,0 +1,47 @@
+<section data-ng-controller="DashboardController">
+	<div class="row">
+		<div class="col-xs-12 col-md-7 user-info-div">
+			<div class="col-xs-6 col-md-4 user-info-img-div">
+				<img ng-src="/modules/users/img/user-icon.png" class="image-rounded" alt="User Profile Image"></img>
+			</div>
+			<div class="col-xs-10 col-md-8 user-info-info-div">
+				<table style="margin-top: 10px;">
+					<tr><td style="width: 140px;"><label class="text-left">User Name:  </label></td><td>{{user.firstName}}</td><td>{{user.lastName}}</td></tr>
+					<tr><td style="width: 140px;"><label class="text-left">Email:  </label></td><td>{{user.email}}</td></tr>
+					<tr><td style="width: 140px;"><label class="text-left">Date Registered:  </label></td><td>{{user.created}}</td></tr>
+					<tr><td style="width: 140px;"><label class="text-left">Last Login:  </label></td><td>{{user.updated}}</td></tr>
+				</table>
+			</div>
+			<div>
+				<a href="/#!/settings/profile" class="btn btn-primary">Edit Settings</a>
+			</div>
+		</div>
+		<div class="col-xs-4 col-md-5 user-actions-div">
+			<h3>Available Options</h3>
+			<table>
+				<tbody>
+					<tr><td><a href="/#!/information">Review Instructional Materials</a></td><td><a href="/#!/introduction">Review Orientation Materials</a></td></tr>
+					<tr><td><a href="/#!/practice-examination-chapter">Take Chapter Quizzes</a></td><td><a href="#">Take Examination</a></td></tr>
+					<tr><td><a href="#">Review Exam and Quiz Activity</a></td><td></td></tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-16 col-md-12 user-history-div">
+			<h3>User Activity History</h3>
+			<table class="user-history-table">
+				<thead>
+					<tr>
+						<td>Activity</td><td>Description</td><td>Time Completed</td>
+          </tr>
+        </thead>
+				<tbody>
+          <tr ng-repeat="item in activities"><td>{{item.name}}</td><td>{{item.description}}</td><td>{{item.time_completed}}</td></tr>
+				</tbody>
+				<tfoot>
+				</tfoot>
+			</table>
+		</div>
+	</div>
+</section>
