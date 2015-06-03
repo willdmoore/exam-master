@@ -41,7 +41,7 @@ angular.module('core').controller('PracticeExaminationController', ['$scope', '$
     $scope.displayChapterExamination = function(chapter, mode) {
       $scope.mode = MODES[mode];
       $scope.chapter = CHAPTERS[chapter];
-			$scope.questions = Question.findByChapter(CHAPTERS[chapter].toString());
+			$scope.questions = Questions.findByChapter(CHAPTERS[chapter].toString());
     };
 
     $scope.checkAnswer = function(question_id, answer_id) {
