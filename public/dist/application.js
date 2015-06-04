@@ -43,12 +43,236 @@ angular.element(document).ready(function() {
 });
 'use strict';
 
+// Use applicaion configuration module to register a new module
+ApplicationConfiguration.registerModule('activities');
+'use strict';
+
+// Use applicaion configuration module to register a new module
+ApplicationConfiguration.registerModule('assessments');
+'use strict';
+
 // Use Applicaion configuration module to register a new module
 ApplicationConfiguration.registerModule('core');
 'use strict';
 
-// Use Applicaion configuration module to register a new module
+// Use applicaion configuration module to register a new module
+ApplicationConfiguration.registerModule('questions');
+'use strict';
+
+// Use applicaion configuration module to register a new module
+ApplicationConfiguration.registerModule('responses');
+'use strict';
+
+// Use Application configuration module to register a new module
 ApplicationConfiguration.registerModule('users');
+'use strict';
+
+//Setting up route
+angular.module('activities').config(['$stateProvider',
+	function($stateProvider) {
+		// Activities state routing
+		$stateProvider.
+		state('listActivities', {
+			url: '/activities',
+			templateUrl: 'modules/activities/views/list-activities.client.view.html'
+		}).
+		state('createActivity', {
+			url: '/activities/create',
+			templateUrl: 'modules/activities/views/create-activity.client.view.html'
+		}).
+		state('viewActivity', {
+			url: '/activities/:activityId',
+			templateUrl: 'modules/activities/views/view-activity.client.view.html'
+		}).
+		state('editActivity', {
+			url: '/activities/:activityId/edit',
+			templateUrl: 'modules/activities/views/edit-activity.client.view.html'
+		});
+	}
+]);
+'use strict';
+
+// Activities controller
+angular.module('activities').controller('ActivitiesController', ['$scope', '$stateParams', '$location', 'Authentication', 'Activities',
+	function($scope, $stateParams, $location, Authentication, Activities) {
+		$scope.authentication = Authentication;
+
+		// Create new Activity
+		$scope.create = function() {
+			// Create new Activity object
+			var activity = new Activities ({
+				name: this.name
+			});
+
+			// Redirect after save
+			activity.$save(function(response) {
+				$location.path('activities/' + response._id);
+
+				// Clear form fields
+				$scope.name = '';
+			}, function(errorResponse) {
+				$scope.error = errorResponse.data.message;
+			});
+		};
+
+		// Remove existing Activity
+		$scope.remove = function(activity) {
+			if ( activity ) { 
+				activity.$remove();
+
+				for (var i in $scope.activities) {
+					if ($scope.activities [i] === activity) {
+						$scope.activities.splice(i, 1);
+					}
+				}
+			} else {
+				$scope.activity.$remove(function() {
+					$location.path('activities');
+				});
+			}
+		};
+
+		// Update existing Activity
+		$scope.update = function() {
+			var activity = $scope.activity;
+
+			activity.$update(function() {
+				$location.path('activities/' + activity._id);
+			}, function(errorResponse) {
+				$scope.error = errorResponse.data.message;
+			});
+		};
+
+		// Find a list of Activities
+		$scope.find = function() {
+			$scope.activities = Activities.query();
+		};
+
+		// Find existing Activity
+		$scope.findOne = function() {
+			$scope.activity = Activities.get({ 
+				activityId: $stateParams.activityId
+			});
+		};
+	}
+]);
+'use strict';
+
+//Activities service used to communicate Activities REST endpoints
+angular.module('activities').factory('Activities', ['$resource',
+	function($resource) {
+		return $resource('activities/:activityId', { activityId: '@_id'
+		}, {
+			update: {
+				method: 'PUT'
+			}
+		});
+	}
+]);
+'use strict';
+
+//Setting up route
+angular.module('assessments').config(['$stateProvider',
+	function($stateProvider) {
+		// Assessments state routing
+		$stateProvider.
+		state('listAssessments', {
+			url: '/assessments',
+			templateUrl: 'modules/assessments/views/list-assessments.client.view.html'
+		}).
+		state('createAssessment', {
+			url: '/assessments/create',
+			templateUrl: 'modules/assessments/views/create-assessment.client.view.html'
+		}).
+		state('viewAssessment', {
+			url: '/assessments/:assessmentId',
+			templateUrl: 'modules/assessments/views/view-assessment.client.view.html'
+		}).
+		state('editAssessment', {
+			url: '/assessments/:assessmentId/edit',
+			templateUrl: 'modules/assessments/views/edit-assessment.client.view.html'
+		});
+	}
+]);
+'use strict';
+
+// Assessments controller
+angular.module('assessments').controller('AssessmentsController', ['$scope', '$stateParams', '$location', 'Authentication', 'Assessments',
+	function($scope, $stateParams, $location, Authentication, Assessments) {
+		$scope.authentication = Authentication;
+
+		// Create new Assessment
+		$scope.create = function() {
+			// Create new Assessment object
+			var assessment = new Assessments ({
+				name: this.name
+			});
+
+			// Redirect after save
+			assessment.$save(function(response) {
+				$location.path('assessments/' + response._id);
+
+				// Clear form fields
+				$scope.name = '';
+			}, function(errorResponse) {
+				$scope.error = errorResponse.data.message;
+			});
+		};
+
+		// Remove existing Assessment
+		$scope.remove = function(assessment) {
+			if ( assessment ) { 
+				assessment.$remove();
+
+				for (var i in $scope.assessments) {
+					if ($scope.assessments [i] === assessment) {
+						$scope.assessments.splice(i, 1);
+					}
+				}
+			} else {
+				$scope.assessment.$remove(function() {
+					$location.path('assessments');
+				});
+			}
+		};
+
+		// Update existing Assessment
+		$scope.update = function() {
+			var assessment = $scope.assessment;
+
+			assessment.$update(function() {
+				$location.path('assessments/' + assessment._id);
+			}, function(errorResponse) {
+				$scope.error = errorResponse.data.message;
+			});
+		};
+
+		// Find a list of Assessments
+		$scope.find = function() {
+			$scope.assessments = Assessments.query();
+		};
+
+		// Find existing Assessment
+		$scope.findOne = function() {
+			$scope.assessment = Assessments.get({ 
+				assessmentId: $stateParams.assessmentId
+			});
+		};
+	}
+]);
+'use strict';
+
+//Assessments service used to communicate Assessments REST endpoints
+angular.module('assessments').factory('Assessments', ['$resource',
+	function($resource) {
+		return $resource('assessments/:assessmentId', { assessmentId: '@_id'
+		}, {
+			update: {
+				method: 'PUT'
+			}
+		});
+	}
+]);
 'use strict';
 
 // Setting up route
@@ -59,6 +283,14 @@ angular.module('core').config(['$stateProvider', '$urlRouterProvider',
 
 		// Home state routing
 		$stateProvider.
+		state('practice-examination-chapter', {
+			url: '/practice-examination-chapter',
+			templateUrl: 'modules/core/views/practice-examination-chapter.client.view.html'
+		}).
+		state('practice-examination-results', {
+			url: '/practice-examination-results',
+			templateUrl: 'modules/core/views/practice-examination-results.client.view.html'
+		}).
 		state('practice-examination', {
 			url: '/practice-examination',
 			templateUrl: 'modules/core/views/practice-examination.client.view.html'
@@ -150,26 +382,85 @@ angular.module('core').controller('IntroductionController', ['$scope',
 ]);
 'use strict';
 
-angular.module('core').controller('PracticeExaminationController', ['$scope',
+angular.module('core').controller('PracticeExaminationChapterController', ['$scope',
 	function($scope) {
+		// Practice examination chapter controller logic
+		// ...
+	}
+]);
+
+'use strict';
+
+angular.module('core').controller('PracticeExaminationController', ['$scope', '$location', 'Questions',
+	function($scope, $location, Questions) {
 		// Practice examination controller logic
 		// ...
 
+    var CHAPTER_1 = 1;
+    var CHAPTER_2 = 2;
+    var CHAPTER_3 = 3;
+    var CHAPTER_4 = 4;
+    var CHAPTER_5 = 5;
+    var CHAPTER_6 = 6;
+    var CHAPTER_7 = 7;
+    var CHAPTER_8 = 8;
+    var CHAPTER_9 = 9;
+    var CHAPTER_10 = 10;
+    var CHAPTERS = [
+      CHAPTER_1,
+      CHAPTER_2,
+      CHAPTER_3,
+      CHAPTER_4,
+      CHAPTER_5,
+      CHAPTER_6,
+      CHAPTER_7,
+      CHAPTER_8,
+      CHAPTER_9,
+      CHAPTER_10,
+    ];
+    var MODE_PRACTICE = 0;
+    var MODE_TEST = 1;
+    var MODES = [MODE_PRACTICE, MODE_TEST];
+
     $scope.index = 0;
     $scope.correct = 0;
+    $scope.answered = 0;
+    $scope.chapter = -1;
+    $scope.mode = MODES[MODE_PRACTICE];
+		$scope.questions = [];
+
+    $scope.displayChapterExamination = function(chapter, mode) {
+      $scope.mode = MODES[mode];
+      $scope.chapter = CHAPTERS[chapter];
+			$scope.questions = Questions.findByChapter(CHAPTERS[chapter].toString());
+    };
 
     $scope.checkAnswer = function(question_id, answer_id) {
       var question = $scope.questions.filter(function(obj) {
         return obj.id === question_id;
       });
 
-      if (question.correct_answer === answer_id)
+      if (question[0].correct_answer === answer_id)
       {
         $scope.correct++;
+        $scope.answered++;
+
+        if ($scope.answered >= $scope.questions.length)
+        {
+          $location.path('practice-examination-results');
+        }
+
         $scope.nextQuestion();
       }
       else
       {
+        $scope.answered++;
+
+        if ($scope.answered >= $scope.questions.length)
+        {
+          $location.path('practice-examination-results');
+        }
+
         $scope.nextQuestion();
       }
     };
@@ -181,137 +472,15 @@ angular.module('core').controller('PracticeExaminationController', ['$scope',
     $scope.nextQuestion = function() {
       if ($scope.index++ >= ($scope.questions.length - 1)) $scope.index = 0;
     };
+	}
+]);
 
-    $scope.questions = [
-      {
-        'id': 1,
-        'content': 'An applicants licensing exam results are good for...',
-        'correct_answer': 1
-      },
-      {
-        'id': 2,        
-        'content': 'The maximum fine per violation for soliciting insurance without a license is...',
-        'correct_answer': 7
-      },
-      {
-        'id': 3,        
-        'content': 'A temporary license my be issued to approved individuals for a period of...',
-        'correct_answer': 10
-      },
-      {
-        'id': 4,        
-        'content': 'Producers may co-mingle business monies with personal monies...',
-        'correct_answer': 13
-      },
-      {
-        'id': 5,        
-        'content': 'All the following are true regarding premiums collected from a policyholder, EXCEPT...',
-        'correct_answer': 19
-      },      
-    ];
+'use strict';
 
-    $scope.answers = [
-      {
-        'id': 1,
-        'question_id': 1,
-        'content': '60 days from the date of the exam.'
-      },
-      {
-        'id': 2,
-        'question_id': 1,        
-        'content': '90 days from the date of the exam.'
-      },
-      {
-        'id': 3,
-        'question_id': 1,        
-        'content': '180 days from the date of the exam.'
-      },
-      {
-        'id': 4,
-        'question_id': 1,        
-        'content': 'One year from the date of the exam.'
-      },
-      {
-        'id': 5,
-        'question_id': 2,
-        'content': '$300'
-      },
-      {
-        'id': 6,
-        'question_id': 2,        
-        'content': '$500'
-      },
-      {
-        'id': 7,
-        'question_id': 2,        
-        'content': '$1000'
-      },
-      {
-        'id': 8,
-        'question_id': 2,        
-        'content': '$5000'
-      },
-      {
-        'id': 9,
-        'question_id': 3,
-        'content': '30 days'
-      },
-      {
-        'id': 10,
-        'question_id': 3,        
-        'content': '60 days'
-      },
-      {
-        'id': 11,
-        'question_id': 3,        
-        'content': '90 days'
-      },
-      {
-        'id': 12,
-        'question_id': 3,        
-        'content': '180 days'
-      },
-      {
-        'id': 13,
-        'question_id': 4,
-        'content': 'Only if permitted in writing by the Insurance Commissioner'
-      },
-      {
-        'id': 14,
-        'question_id': 4,        
-        'content': 'At any time if permitted by the insured'
-      },
-      {
-        'id': 15,
-        'question_id': 4,        
-        'content': 'Only if each represented insurance company provides prior written consent'
-      },
-      {
-        'id': 16,
-        'question_id': 4,        
-        'content': 'Never'
-      },
-      {
-        'id': 17,
-        'question_id': 5,        
-        'content': 'Producers may not co-mingle business monies and personal monies unless each insurance company provides written permissions'
-      },
-      {
-        'id': 18,
-        'question_id': 5,
-        'content': 'Producers may make remittance of premiums collected in the same form as received, need not maintain a separate account'
-      },
-                  {
-        'id': 19,
-        'question_id': 5,        
-        'content': 'Producers who receive cash from insureds may deposit this money into his or her personal account and write a check to the insurance company'
-      },
-      {
-        'id': 20,
-        'question_id': 5,        
-        'content': 'If a producer holds a policyholder\'s funds, they must be maintained in a separate account'
-      },      
-    ];
+angular.module('core').controller('PracticeExamininationResultsController', ['$scope',
+	function($scope) {
+		// Practice examinination results controller logic
+		// ...
 	}
 ]);
 'use strict';
@@ -506,6 +675,214 @@ angular.module('core').service('Menus', [
 ]);
 'use strict';
 
+//Setting up route
+angular.module('questions').config(['$stateProvider',
+	function($stateProvider) {
+		// Questions state routing
+		$stateProvider.
+		state('listQuestions', {
+			url: '/questions',
+			templateUrl: 'modules/questions/views/list-questions.client.view.html'
+		}).
+		state('createQuestion', {
+			url: '/questions/create',
+			templateUrl: 'modules/questions/views/create-question.client.view.html'
+		}).
+		state('viewQuestion', {
+			url: '/questions/:questionId',
+			templateUrl: 'modules/questions/views/view-question.client.view.html'
+		}).
+		state('editQuestion', {
+			url: '/questions/:questionId/edit',
+			templateUrl: 'modules/questions/views/edit-question.client.view.html'
+		});
+	}
+]);
+'use strict';
+
+// Questions controller
+angular.module('questions').controller('QuestionsController', ['$scope', '$stateParams', '$location', 'Authentication', 'Questions',
+	function($scope, $stateParams, $location, Authentication, Questions) {
+		$scope.authentication = Authentication;
+
+		// Create new Question
+		$scope.create = function() {
+			// Create new Question object
+			var question = new Questions ({
+				name: this.name
+			});
+
+			// Redirect after save
+			question.$save(function(response) {
+				$location.path('questions/' + response._id);
+
+				// Clear form fields
+				$scope.name = '';
+			}, function(errorResponse) {
+				$scope.error = errorResponse.data.message;
+			});
+		};
+
+		// Remove existing Question
+		$scope.remove = function(question) {
+			if ( question ) { 
+				question.$remove();
+
+				for (var i in $scope.questions) {
+					if ($scope.questions [i] === question) {
+						$scope.questions.splice(i, 1);
+					}
+				}
+			} else {
+				$scope.question.$remove(function() {
+					$location.path('questions');
+				});
+			}
+		};
+
+		// Update existing Question
+		$scope.update = function() {
+			var question = $scope.question;
+
+			question.$update(function() {
+				$location.path('questions/' + question._id);
+			}, function(errorResponse) {
+				$scope.error = errorResponse.data.message;
+			});
+		};
+
+		// Find a list of Questions
+		$scope.find = function() {
+			$scope.questions = Questions.query();
+		};
+
+		// Find existing Question
+		$scope.findOne = function() {
+			$scope.question = Questions.get({ 
+				questionId: $stateParams.questionId
+			});
+		};
+	}
+]);
+'use strict';
+
+//Questions service used to communicate Questions REST endpoints
+angular.module('questions').factory('Questions', ['$resource',
+	function($resource) {
+		return $resource('questions/:questionId', { questionId: '@_id'
+		}, {
+			update: {
+				method: 'PUT'
+			}
+		});
+	}
+]);
+'use strict';
+
+//Setting up route
+angular.module('responses').config(['$stateProvider',
+	function($stateProvider) {
+		// Responses state routing
+		$stateProvider.
+		state('listResponses', {
+			url: '/responses',
+			templateUrl: 'modules/responses/views/list-responses.client.view.html'
+		}).
+		state('createResponse', {
+			url: '/responses/create',
+			templateUrl: 'modules/responses/views/create-response.client.view.html'
+		}).
+		state('viewResponse', {
+			url: '/responses/:responseId',
+			templateUrl: 'modules/responses/views/view-response.client.view.html'
+		}).
+		state('editResponse', {
+			url: '/responses/:responseId/edit',
+			templateUrl: 'modules/responses/views/edit-response.client.view.html'
+		});
+	}
+]);
+'use strict';
+
+// Responses controller
+angular.module('responses').controller('ResponsesController', ['$scope', '$stateParams', '$location', 'Authentication', 'Responses',
+	function($scope, $stateParams, $location, Authentication, Responses) {
+		$scope.authentication = Authentication;
+
+		// Create new Response
+		$scope.create = function() {
+			// Create new Response object
+			var response = new Responses ({
+				name: this.name
+			});
+
+			// Redirect after save
+			response.$save(function(response) {
+				$location.path('responses/' + response._id);
+
+				// Clear form fields
+				$scope.name = '';
+			}, function(errorResponse) {
+				$scope.error = errorResponse.data.message;
+			});
+		};
+
+		// Remove existing Response
+		$scope.remove = function(response) {
+			if ( response ) { 
+				response.$remove();
+
+				for (var i in $scope.responses) {
+					if ($scope.responses [i] === response) {
+						$scope.responses.splice(i, 1);
+					}
+				}
+			} else {
+				$scope.response.$remove(function() {
+					$location.path('responses');
+				});
+			}
+		};
+
+		// Update existing Response
+		$scope.update = function() {
+			var response = $scope.response;
+
+			response.$update(function() {
+				$location.path('responses/' + response._id);
+			}, function(errorResponse) {
+				$scope.error = errorResponse.data.message;
+			});
+		};
+
+		// Find a list of Responses
+		$scope.find = function() {
+			$scope.responses = Responses.query();
+		};
+
+		// Find existing Response
+		$scope.findOne = function() {
+			$scope.response = Responses.get({ 
+				responseId: $stateParams.responseId
+			});
+		};
+	}
+]);
+'use strict';
+
+//Responses service used to communicate Responses REST endpoints
+angular.module('responses').factory('Responses', ['$resource',
+	function($resource) {
+		return $resource('responses/:responseId', { responseId: '@_id'
+		}, {
+			update: {
+				method: 'PUT'
+			}
+		});
+	}
+]);
+'use strict';
+
 // Config HTTP Error Handling
 angular.module('users').config(['$httpProvider',
 	function($httpProvider) {
@@ -541,6 +918,10 @@ angular.module('users').config(['$stateProvider',
 	function($stateProvider) {
 		// Users state routing
 		$stateProvider.
+		state('dashboard', {
+			url: '/dashboard',
+			templateUrl: 'modules/users/views/dashboard/dashboard.client.view.html'
+		}).
 		state('profile', {
 			url: '/settings/profile',
 			templateUrl: 'modules/users/views/settings/edit-profile.client.view.html'
@@ -579,6 +960,7 @@ angular.module('users').config(['$stateProvider',
 		});
 	}
 ]);
+
 'use strict';
 
 angular.module('users').controller('AuthenticationController', ['$scope', '$http', '$location', 'Authentication',
@@ -606,13 +988,24 @@ angular.module('users').controller('AuthenticationController', ['$scope', '$http
 				$scope.authentication.user = response;
 
 				// And redirect to the index page
-				$location.path('/');
+				$location.path('/dashboard');
 			}).error(function(response) {
 				$scope.error = response.message;
 			});
 		};
 	}
 ]);
+
+'use strict';
+
+angular.module('users').controller('DashboardController', ['$scope', 'Authentication', 'Activities',
+	function($scope, Authentication, Activities) {
+		// Dashboard controller logic
+		$scope.user = Authentication.user;
+    $scope.activities = Activities.query();
+	}
+]);
+
 'use strict';
 
 angular.module('users').controller('PasswordController', ['$scope', '$stateParams', '$http', '$location', 'Authentication',
