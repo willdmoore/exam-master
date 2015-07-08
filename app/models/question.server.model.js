@@ -33,12 +33,4 @@ var QuestionSchema = new Schema({
 	}
 });
 
-/**
- * Questions associated with a particular Chapter
- */
-QuestionSchema.statics.findByChapter = function(chapter, callback) {
-	var _this = this;
-	return _this.find({ chapter: chapter }, callback);
-};
-
 mongoose.model('Question', QuestionSchema);

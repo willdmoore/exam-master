@@ -72,7 +72,7 @@ exports.delete = function(req, res) {
 /**
  * List of Questions
  */
-exports.list = function(req, res) { 
+exports.list = function(req, res) {
 	Question.find().sort('-created').populate('user', 'displayName').exec(function(err, questions) {
 		if (err) {
 			return res.status(400).send({
@@ -85,9 +85,29 @@ exports.list = function(req, res) {
 };
 
 /**
+ * List of Questions by chapter
+ */
+exports.questionsByChapter = function(req, res, next, chapterId) {
+    console.log('questionByChapter:  chapterId is ' + chapterId.toString());
+
+    Question.find( {chapter: new RegExp(chapterId.toString() + '-', 'i') }).populate('user', 'displayName').exec(function(err, questions) {
+    if (err) {
+        console.log('questionsByChapter:  err is ' + err);
+        return res.status(400).send({
+            message: errorHandler.getErrorMessage(err)
+        });
+    }
+    else {
+      console.log('questionsByChapter:  questions are ' + questions);
+      res.jsonp(questions);
+    }
+    });
+};
+
+/**
  * Question middleware
  */
-exports.questionByID = function(req, res, next, id) { 
+exports.questionByID = function(req, res, next, id) {
 	Question.findById(id).populate('user', 'displayName').exec(function(err, question) {
 		if (err) return next(err);
 		if (! question) return next(new Error('Failed to load Question ' + id));
@@ -104,20 +124,4 @@ exports.hasAuthorization = function(req, res, next) {
 		return res.status(403).send('User is not authorized');
 	}
 	next();
-};
-
-/**
- * List of Questions by chapter
- */
-exports.questionsByChapter = function(req, res, chapterId) {
-	Question.findByChapter(chapterId).populate('user', 'displayName').exec(function(err, questions) {
-		if (err)
-		{
-			return res.status(400).send({ message: errorHandler.getErrorMessage(err) });
-		}
-		else
-		{
-			res.jsonp(questions);
-		}
-	});
 };

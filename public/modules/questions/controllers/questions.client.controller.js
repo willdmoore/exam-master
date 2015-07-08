@@ -1,11 +1,12 @@
 'use strict';
 
 // Questions controller
-angular.module('questions').controller('QuestionsController', ['$scope', '$stateParams', '$location', 'Authentication', 'Questions',
-	function($scope, $stateParams, $location, Authentication, Questions) {
+angular.module('questions').controller('QuestionsController', ['$scope', '$stateParams', '$location', '$log', 'Authentication', 'Questions',
+	function($scope, $stateParams, $location, $log, Authentication, Questions) {
 		$scope.authentication = Authentication;
+ //   $scope.$log = $log;
 
-		// Create new Question
+  // Create new Question
 		$scope.create = function() {
 			// Create new Question object
 			var question = new Questions ({
@@ -25,7 +26,7 @@ angular.module('questions').controller('QuestionsController', ['$scope', '$state
 
 		// Remove existing Question
 		$scope.remove = function(question) {
-			if ( question ) { 
+			if ( question ) {
 				question.$remove();
 
 				for (var i in $scope.questions) {
@@ -53,14 +54,21 @@ angular.module('questions').controller('QuestionsController', ['$scope', '$state
 
 		// Find a list of Questions
 		$scope.find = function() {
-			$scope.questions = Questions.query();
+			$scope.questions = Questions.question.query();
 		};
 
 		// Find existing Question
 		$scope.findOne = function() {
-			$scope.question = Questions.get({ 
+			$scope.question = Questions.question.get({
 				questionId: $stateParams.questionId
 			});
 		};
+
+    // Find question list for a given chapter
+    $scope.findByChapter = function(chapter) {
+      $scope.questions = Questions.get({
+        chapter: $stateParams.chapter
+      });
+    };
 	}
 ]);

@@ -3,7 +3,7 @@
 module.exports = {
 	db: 'mongodb://localhost/exammasterinteractive-dev',
 	app: {
-		title: 'ExamMasterInteractive - Development Environment'
+		title: 'Exam Master Interactive - Development Environment'
 	},
 	facebook: {
 		clientID: process.env.FACEBOOK_ID || 'APP_ID',

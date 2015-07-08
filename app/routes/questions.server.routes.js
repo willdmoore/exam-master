@@ -19,4 +19,5 @@ module.exports = function(app) {
 
 	// Finish by binding the Question middleware
 	app.param('questionId', questions.questionByID);
+  app.param('chapter', questions.questionsByChapter);
 };

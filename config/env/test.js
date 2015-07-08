@@ -4,7 +4,7 @@ module.exports = {
 	db: 'mongodb://localhost/exammasterinteractive-test',
 	port: 3001,
 	app: {
-		title: 'ExamMasterInteractive - Test Environment'
+		title: 'Exam Master Interactive - Test Environment'
 	},
 	facebook: {
 		clientID: process.env.FACEBOOK_ID || 'APP_ID',

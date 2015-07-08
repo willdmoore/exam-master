@@ -1,20 +1,30 @@
 <section data-ng-controller="PracticeExaminationChapterController">
-	<div class="col-md-12 practice-examination-chapter-main text-center">
-    <div style="margin: 0 auto;">
-      <div class="col-md-6 practice-examination-chapter-left">
-        <a href="/#!/practice-examination" class="btn btn-primary">Chapter 1 - Insurance Regulations</a>
-        <a href="/#!/practice-examination" class="btn btn-primary">Chapter 2 - General Insurance</a>
-        <a href="/#!/practice-examination" class="btn btn-primary">Chapter 3 - PC Insurance Basics</a>
-        <a href="/#!/practice-examination" class="btn btn-primary">Chapter 4 - Dwelling Policy</a>
-        <a href="/#!/practice-examination" class="btn btn-primary">Chapter 5 - Homeowners Policy</a>
+  <div class="btn-group">
+    <label class="btn btn-primary" ng-model="testMode" btn-radio="'practice'">Practice</label>
+    <label class="btn btn-primary" ng-model="testMode" btn-radio="'test'">Test</label>
+  </div>
+  <div class="col-md-12 practice-examination-pane">
+    <div class="practice-examination-chapter-title text-center">Chapter {{chapter}} Questions</div>
+    <div class="practice-examination-question col-md-12 text-center">
+      {{questions[index].content}}
+    </div>
+    <div class="practice-examination-answers col-md-12">
+      <div class="radio text-left" ng-repeat="answer in questions[index].responses">
+        <label><input type="radio" name="practice-exam-answer" ng-click="checkAnswer(questions[index].answer, $index)" />{{answer.content}}</label>
       </div>
-      <div class="col-md-6 practice-examination-chapter-right">
-        <a href="/#!/practice-examination" class="btn btn-primary">Chapter 6 - Auto Insurance</a>
-        <a href="/#!/practice-examination" class="btn btn-primary">Chapter 7 - Commercial Package Policy</a>
-        <a href="/#!/practice-examination" class="btn btn-primary">Chapter 8 - Business Owners Policy</a>
-        <a href="/#!/practice-examination" class="btn btn-primary">Chapter 9 - Workers Compensation</a>
-        <a href="/#!/practice-examination" class="btn btn-primary">Chapter 10 - Other Coverages and Options</a>
-      </div>
+    </div>
+    <div class="practice-examination-justification col-md-12" ng-show="displayExplanation">
+      {{questions[index].explanation}}
+    </div>
+    <div class="practice-examination-navigation col-md-12 text-center">
+      <button ng-click="prevQuestion()">Previous</button>
+      <button ng-click="nextQuestion()">Next</button>
+    </div>
+    <div class="col-md-12 text-center" style="margin-bottom: 40px;">
+      <h3>{{correct}} questions of {{questions.length}} answered correctly...</h3>
+    </div>
+    <div class="col-md-12 text-center">
+      <a href="/#!/introduction" class="btn-primary btn-lg">Back to Introduction</a>
     </div>
   </div>
 </section>

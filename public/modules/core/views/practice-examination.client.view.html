@@ -1,24 +1,2 @@
 <section data-ng-controller="PracticeExaminationController">
-  <div class="col-md-12 practice-examination-pane">
-    <div class="practice-examination-mode text-center">{{mode.label}}</div>
-    <div class="practice-examination-chapter text-center">{{chapter.label}}</div>
-    <div class="practice-examination-question col-md-12 text-center">
-      {{questions[index].content}}
-    </div>
-    <div class="practice-examination-answers col-md-12">
-      <div class="text-center" ng-repeat="answer in (answers | answersForQuestion:questions[index].id)">
-        <label><input type="radio" name="practice-exam-answer" ng-click="checkAnswer(questions[index].id, answer.id)" />{{answer.content}}</label>
-      </div>
-    </div>
-    <div class="practice-examination-navigation col-md-12 text-center">
-      <button ng-click="prevQuestion()">Previous</button>
-      <button ng-click="nextQuestion()">Next</button>
-    </div>
-    <div class="col-md-12 text-center" style="margin-bottom: 40px;">
-      <h3>{{correct}} questions of {{questions.length}} answered correctly...</h3>
-    </div>
-    <div class="col-md-12 text-center">
-      <a href="/#!/introduction" class="btn-primary btn-lg">Back to Introduction</a>
-    </div>
-  </div>
 </section>
